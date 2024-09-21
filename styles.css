@@ -408,8 +408,8 @@ select:focus + .focus {
 
   header{
    background-image: linear-gradient(var(--teal), var(--white));
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 1fr, 1fr, 3fr;
    }
   
   header h1, p{
@@ -417,10 +417,7 @@ select:focus + .focus {
   }
 
 
-  #intro{
-    display: grid;
-    
-  }
+ 
   /*
   #intro div #img-grid{
     justify-content: center;
