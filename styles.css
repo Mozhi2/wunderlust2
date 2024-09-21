@@ -442,7 +442,11 @@ select:focus + .focus {
     display: grid;
     grid-gap: 0.5rem;
     align-items: center;
-    margin: 20px;
+   padding: 20px;
+  }
+
+  #img-grid picture{
+    max-width: 100%;
   }
     h1 {
         font-size: 1.5em; /* Adjust header size */
