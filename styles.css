@@ -415,6 +415,16 @@ select:focus + .focus {
   header h1, p{
    padding: 0; 
   }
+
+
+  #intro{
+    margin: 30px;
+  }
+  }
+  #intro div #img-grid{
+    justify-content: center;
+    
+  }
   
   #intro h2{
     margin-left: 30px;
