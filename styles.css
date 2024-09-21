@@ -271,18 +271,7 @@ nav ul li {
 
     
 
-    #plan img{
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        grid-gap: 1rem;
-        justify-items: center;
-        padding: 20px; /* Space around the SVG */
-        margin: 10px; /* Space between boxes */
-        border: 2px solid #ffffff; /* Border around the box */
-        border-radius: 8px; /* Rounded corners */
-        background-color: var(--blue); /* Background color */
-       
-    }
+ 
 
     #plan a{
         display: grid;
