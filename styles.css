@@ -418,9 +418,11 @@ select:focus + .focus {
 
 
   #intro{
-    margin: 30px;
+    display: grid;
+    grid-gap: 0.5rem;
+    align-items: center;
   }
-  
+  /*
   #intro div #img-grid{
     justify-content: center;
     
@@ -436,7 +438,7 @@ select:focus + .focus {
     text-align: left;
    
   }
- 
+ */
   #img-grid{
     display: grid;
  
