@@ -416,13 +416,20 @@ select:focus + .focus {
 
   #intro h2, p{
     text-align: left;
-    margin: 10px;
+    margin: 20px;
+    
+  }
+
+  #intro p{
+    font: sans-serif;
+    text-align: center;
+    margin: 20px;
   }
  
   #img-grid{
     display: grid;
     grid-gap: 0.5rem;
-    margin: 10px;
+    margin: 20px;
   }
 
   #img-grid picture{
