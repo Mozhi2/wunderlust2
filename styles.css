@@ -472,20 +472,6 @@ select:focus + .focus {
       
     }
 
-    #plan img{
-      display: grid;
-      width: 50%;
-      height: 50%;
-      align-items: center;
-        padding: 50px; /* Space around the SVG */
-      
-        border: 2px solid #ffffff; /* Border around the box */
-        border-radius: 8px; /* Rounded corners */
-        background-color: var(--teal); /* Background color */
-       
-    }
-
-  
     #testimonials{
         display: grid;
         grid-template-columns: repeat(4, 1fr);
