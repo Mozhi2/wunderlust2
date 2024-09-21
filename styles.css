@@ -429,14 +429,8 @@ select:focus + .focus {
  
   #img-grid{
     display: grid;
-    grid-gap: 0.5rem;
-   
-  }
-
-  #img-grid picture{
-    max-width: 100%;
-  }
  
+  }
     h1 {
         font-size: 1.5em; /* Adjust header size */
         font-family: Molle, "sans-serif";
@@ -476,7 +470,7 @@ select:focus + .focus {
       text-align: center;
       
     }
-/*
+
     #plan img{
         display: grid;
         width: 50%;
@@ -489,7 +483,7 @@ select:focus + .focus {
           background-color: var(--teal); 
          
       }
-  */
+  
 
     #testimonials{
         display: grid;
