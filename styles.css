@@ -471,18 +471,20 @@ select:focus + .focus {
       
     }
 
-    #plan img{
+    #plan img {
         display: grid;
         width: 50%;
         height: 50%;
         align-items: center;
-          padding: 50px; 
-        
-          border: 2px solid #ffffff;
-          border-radius: 8px; 
-          background-color: var(--teal); 
-         
-      }
+        background-color: var(--teal);
+        padding: 50px;
+        border-width: 2px;
+        border-style: solid;
+        border-color: rgb(255, 255, 255);
+        border-image: initial;
+        border-radius: 8px;
+    }
+
   
 
     #testimonials{
