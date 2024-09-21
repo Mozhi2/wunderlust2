@@ -450,6 +450,8 @@ select:focus + .focus {
     }
   
   #plan{
+    display: grid;
+    align-items: center;
     background-color: var(--yellow);
     padding-bottom: 20px;
   }
@@ -487,10 +489,6 @@ select:focus + .focus {
         border-radius: 8px;
     }
 
-     #plan a{
-        justify-content: center;
-     }
-  
 
     #testimonials{
         display: grid;
