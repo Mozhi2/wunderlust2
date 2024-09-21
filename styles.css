@@ -417,20 +417,13 @@ select:focus + .focus {
   }
 
 
- 
+ #intro{
+    margin: 20px;
+ }
 
 
   
-  #intro h2{
-    margin-left: 30px;
   
-    
-  }
-  #intro p {
-    margin: 30px;
-    text-align: left;
-   
-  }
  
   #img-grid{
     display: grid;
@@ -439,7 +432,7 @@ select:focus + .focus {
   }
 
   #img-grid picture{
-    max-width: 100%;
+    max-width: 500%;
   }
     h1 {
         font-size: 1.5em; /* Adjust header size */
