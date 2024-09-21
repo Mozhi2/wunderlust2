@@ -420,7 +420,7 @@ select:focus + .focus {
   #intro{
     margin: 30px;
   }
-  }
+  
   #intro div #img-grid{
     justify-content: center;
     
