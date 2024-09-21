@@ -419,14 +419,18 @@ select:focus + .focus {
 
  
 
- 
+
   
-  #intro h2, p{
-    margin: 20px;
+  #intro h2{
+    margin-left: 30px;
   
     
   }
- 
+  #intro p {
+    margin: 30px;
+    text-align: left;
+   
+  }
  
   #img-grid{
     display: grid;
