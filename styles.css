@@ -432,10 +432,7 @@ select:focus + .focus {
     margin: 20px;
   }
 
-  picture{
-    width: 100%;
-    
-  }
+ 
     h1 {
         font-size: 1.5em; /* Adjust header size */
         font-family: Molle, "sans-serif";
@@ -490,6 +487,9 @@ select:focus + .focus {
         border-radius: 8px;
     }
 
+     #plan a{
+        justify-content: center;
+     }
   
 
     #testimonials{
