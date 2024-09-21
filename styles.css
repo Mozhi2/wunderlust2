@@ -419,9 +419,7 @@ select:focus + .focus {
 
   #intro{
     display: grid;
-    grid-gap: 0.5rem;
-    align-items: center;
-    margin: 30px;
+    
   }
   /*
   #intro div #img-grid{
@@ -442,7 +440,9 @@ select:focus + .focus {
  */
   #img-grid{
     display: grid;
- 
+    grid-gap: 0.5rem;
+    align-items: center;
+    margin: 20px;
   }
     h1 {
         font-size: 1.5em; /* Adjust header size */
