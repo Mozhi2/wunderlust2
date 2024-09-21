@@ -434,8 +434,8 @@ select:focus + .focus {
    
   }
 
-  #img-grid, picture{
-    max-width: 100%;
+  #img-grid picture{
+    width: 100%;
   }
  
     h1 {
