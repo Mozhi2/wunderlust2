@@ -525,11 +525,11 @@ select:focus + .focus {
 
 
 /* Additional styles for mobile screen */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 480px) {
 
   header{
    background-image: linear-gradient(var(--teal), var(--white));
-    display: grid;
+    display: flex;
   }
 
   #logo a{
