@@ -850,9 +850,7 @@ footer a {
   
 
     footer{
-        display: flex;
-        flex-wrap: wrap;
-        flex-grow: 1;
+  
         justify-content: left;
               
     }
