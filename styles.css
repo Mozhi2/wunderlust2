@@ -572,6 +572,19 @@ footer{
   }
 
  
+    
+
+  nav ul {
+    display: block; /* Stack navigation items on mobile */
+    
+}
+
+nav ul li {
+    display: block; /* Change to block for mobile view */
+    
+    margin: 5px 0;
+}
+
 
   #intro h2{
     font-size: 1.5em;
@@ -771,19 +784,6 @@ h4{
     }
 
    
-    
-
-    nav ul {
-        display: block; /* Stack navigation items on mobile */
-        
-    }
-
-    nav ul li {
-        display: block; /* Change to block for mobile view */
-        
-        margin: 5px 0;
-    }
-    
 
     #img-grid {
         display: flex;
