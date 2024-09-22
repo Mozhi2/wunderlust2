@@ -548,6 +548,10 @@ footer{
     display: flex;
 }
 
+footer a{
+    justify-content: right;
+}
+
 /* Additional styles for mobile screen */
 @media screen and (min-width: 480px) {
 
