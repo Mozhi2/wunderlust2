@@ -415,7 +415,7 @@ select:focus + .focus {
 
 
 /* Additional styles for mobile screen */
-@media screen and (min-width: 576px) {
+@media screen and (max-width: 576px) {
 
   header{
    background-image: linear-gradient(var(--teal), var(--white));
