@@ -774,20 +774,9 @@ h4{
 }
 
 @media screen and (max-width: 768px) {
-    form{
-        display: flex;
-    }
-    footer{
-        display: flex;
-    }
-    
-    footer p{
-        justify-content: left;
-    }
-    
-    footer a{
-        justify-content: right;
-    }
+   form{
+    display: flex;
+   }
 }
 @media only screen and (max-width: 1200px) {
     header{
