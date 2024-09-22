@@ -851,17 +851,18 @@ footer a {
 
     footer{
         display: flex;
+        flex-wrap: wrap;
     }
 
     footer p{
         text-align: left;
-        padding: 20px;
+       
         
     }
 
     footer a {
-        align-items: right;
-        grid-gap: 1rem;
+        justify-content: right;
+        
         max-width: 1000px;
         margin: 10px;
     }
