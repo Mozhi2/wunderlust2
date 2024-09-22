@@ -569,7 +569,7 @@ h4{
  
   #img-grid img{
   display: grid;
-  grid-column: 1 / -1;
+  width: 100%;
   row-gap: 1rem;
     }
     
