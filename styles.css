@@ -853,8 +853,8 @@ footer a {
    }
 
    footer a{
-    display: flex;
-    justify-content: right;
+    padding: 20px;
+     justify-content: right;
     
     
    }
