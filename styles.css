@@ -552,7 +552,7 @@ footer{
 
 
 /* Additional styles for mobile screen */
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 480px) {
 
   header{
    background-image: linear-gradient(var(--teal), var(--white));
