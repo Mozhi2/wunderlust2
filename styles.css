@@ -531,19 +531,8 @@ select:focus + .focus {
     text-align: left;
     margin: 20px;
    }
-  
-  header p{
-   
-   text-align: left;
-   
-  }
 
-  #intro h2{
-    font-size: 1.5em;
-    margin: 20px;
-  }
-
-  h3 {
+   h3 {
     font-size: 1.25em; 
  
 }
@@ -553,6 +542,26 @@ h4{
     color: var(--black);
 }
 
+  
+  header p{
+   
+   text-align: left;
+   
+  }
+
+  #intro{
+    display: grid;
+  }
+
+  #intro h2{
+    text-align: left;
+    font-size: 1.5em;
+    margin: 20px;
+  }
+
+ #intro p{
+    text-align: left;
+ }
 
  
  
