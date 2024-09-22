@@ -847,11 +847,19 @@ footer a {
 
 @media screen and (min-width: 1200px){
 
+  
+
+    footer{
+        display: flex;
+        flex-wrap: wrap;
+        flex-grow: 1;
+        justify-content: left;
+              
+    }
 
    footer p{
     text-align: left;
    }
-   
     
 }
 
