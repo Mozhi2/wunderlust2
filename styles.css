@@ -853,11 +853,12 @@ footer a {
 
     footer{
         justify-content: left;
-       
-        
+              
     }
 
-   
+   footer p{
+    text-align: left;
+   }
     
 }
 
