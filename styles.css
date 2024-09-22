@@ -842,6 +842,11 @@ footer a {
         grid-template-columns: repeat(2, 1fr);
         align-items: center;
     }
+
+    footer{
+        display: grid;
+        align-items: center;
+    }
     
 }
 
