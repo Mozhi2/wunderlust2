@@ -572,18 +572,18 @@ h4{
 
 
  
-
+ 
  
   #img-grid img{
   display: grid;
   width: 100%;
-  row-gap: 0.5rem;  
+  row-gap: 1rem;
 }
     
 
 
  
-  #plan div > section{
+  #plan{
     display: grid;
     align-items: center;
     background-color: var(--yellow);
@@ -592,10 +592,9 @@ h4{
   
  
 
-    #plan a{
+    #plan div section h4{
       
         display: grid;
-        align-items: center;
          
     }
 
