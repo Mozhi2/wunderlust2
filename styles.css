@@ -525,7 +525,7 @@ select:focus + .focus {
 
 
 /* Additional styles for mobile screen */
-@media screen and (min-width: 600px) {
+@media screen and (max-width: 600px) {
 
   header{
    background-image: linear-gradient(var(--teal), var(--white));
@@ -745,8 +745,9 @@ h4{
  
 }
 @media only screen and (min-width: 768px) {
-    header h1, p{
+    header{
         display: flex;
+        flex-direction: row;
     }
 }
 
