@@ -521,11 +521,12 @@ select:focus + .focus {
    }
 
    h1{
-    text-align: center;
+    text-align: left;
    }
   
   header p{
    padding: 0; 
+   text-align: left;
   }
 
   #intro h2, p{
