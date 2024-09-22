@@ -529,7 +529,7 @@ select:focus + .focus {
    h1{
     font-size: 2em;
     text-align: left;
-    margin: 20px;
+    margin-left: 20px;
    }
   
   header p{
@@ -543,12 +543,12 @@ select:focus + .focus {
 
   #intro h2{
     font-size: 1.5em;
-    margin: 20px;
+    margin-left: 20px;
     text-align: left;
   }
 
   #intro p{
-    margin: 20px;
+    margin-left: 20px;
     text-align: left;
     font-size: 1.25em;
   }
