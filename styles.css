@@ -544,6 +544,10 @@ select:focus + .focus {
   
 }
 
+footer{
+    display: flex;
+}
+
 
 
 /* Additional styles for mobile screen */
