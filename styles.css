@@ -569,12 +569,13 @@ h4{
  
   #img-grid{
     display: grid;
+    grid-template-columns: repeat(3, 1fr);
     grid-gap: 1rem;
    
   }
 
   #img-grid picture{
-    max-width: 250px;;
+    max-width: 250px;
   }
 
  
