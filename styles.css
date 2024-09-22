@@ -539,6 +539,7 @@ select:focus + .focus {
     h1 {
         font-size: 1.5em; /* Adjust header size */
         font-family: Molle, "sans-serif";
+        text-align: center;
     }
 
 
