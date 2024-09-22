@@ -612,14 +612,10 @@ h4{
     color: var(--black);
 }
 
-nav{
+nav li ul{
     display: flex;
 }
 
-
- nav li{
-    display: flex;
- }
 
  
   #img-grid img{
@@ -785,6 +781,7 @@ nav{
     max-width: 1000px;
     margin: 10px;
     }
+}
   /*
  
 }
@@ -807,26 +804,6 @@ nav{
         margin: 5px 0;
     }
     */
-
-    #img-grid {
-        display: flex;
-        flex-direction: row; 
-        
-        align-items: center;
-    }
-
-    #img-grid img {
-        max-width: 100%; /* Make images responsive */
-        
-        height: auto; /* Maintain aspect ratio */
-    
-    }
-
-    #contact {
-        padding: 10px; /* Adjust padding for mobile */
-        
-    }
-}
 
 /*
 
