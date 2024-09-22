@@ -218,10 +218,43 @@ body {
 
 /* Header styles */
 
+header{
+	width: 100%;
+	
+	display: flex;
+	padding: 1rem 0;
+	
+}
+
+#logo{
+	padding: 0;
+}
+
+a{
+	display: block;
+	padding: 1rem;
+	color: var(--maroon);
+}
 
 header p{
     margin-left: 20px;
 }
+
+    
+    nav a{
+      text-decoration:none;
+      text-align: center;
+      padding: 1rem;
+      margin: 1rem 0;
+      background-color: var(--yellow);
+      color: var(--black);
+      font-size: 1.1rem;
+      font-weight: bold;
+      border-radius: 0.25rem;
+    }
+    nav li {
+      list-style:none;
+    }
 
 h1 {
     font-size: 2em; 
@@ -241,34 +274,7 @@ h4{
     font-weight: bold;
 }
 
-nav {
-    display: flex;
-    }
-    
-    nav a{
-      text-decoration:none;
-      text-align: center;
-      padding: 1rem;
-      margin: 1rem 0;
-      background-color: var(--white);
-      color: var(--black);
-      font-size: 1.1rem;
-      font-weight: bold;
-      border-radius: 0.25rem;
-    }
-    nav li {
-      list-style:none;
-    }
 
-nav ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-nav ul li {
-    display: flex; 
-    margin: 0 10px;
-}
 
 
 /*
@@ -546,7 +552,7 @@ footer{
 
 
 /* Additional styles for mobile screen */
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 600px) {
 
   header{
    background-image: linear-gradient(var(--teal), var(--white));
@@ -572,19 +578,6 @@ footer{
   }
 
  
-    
-
-  nav ul {
-    display: block; /* Stack navigation items on mobile */
-    
-}
-
-nav ul li {
-    display: block; /* Change to block for mobile view */
-    
-    margin: 5px 0;
-}
-
 
   #intro h2{
     font-size: 1.5em;
@@ -784,6 +777,19 @@ h4{
     }
 
    
+    
+
+    nav ul {
+        display: block; /* Stack navigation items on mobile */
+        
+    }
+
+    nav ul li {
+        display: block; /* Change to block for mobile view */
+        
+        margin: 5px 0;
+    }
+    
 
     #img-grid {
         display: flex;
