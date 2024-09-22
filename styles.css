@@ -222,28 +222,6 @@ body {
 header p{
     margin-left: 20px;
 }
-nav {
-    /*
-      SET GRID COLUMN TO START IN 1 AND END IN -1
-    */
-      grid-column-start: 1;
-      grid-column-end: -1;
-    }
-    
-    nav a{
-      text-decoration:none;
-      text-align: center;
-      padding: 1rem;
-      margin: 1rem 0;
-      background-color: var(--white);
-      color: var(--black);
-      font-size: 1.1rem;
-      font-weight: bold;
-      border-radius: 0.25rem;
-    }
-    nav li {
-      list-style:none;
-    }
 
 h1 {
     font-size: 2em; 
@@ -263,6 +241,24 @@ h4{
     font-weight: bold;
 }
 
+nav {
+    display: flex;
+    }
+    
+    nav a{
+      text-decoration:none;
+      text-align: center;
+      padding: 1rem;
+      margin: 1rem 0;
+      background-color: var(--white);
+      color: var(--black);
+      font-size: 1.1rem;
+      font-weight: bold;
+      border-radius: 0.25rem;
+    }
+    nav li {
+      list-style:none;
+    }
 
 nav ul {
     list-style-type: none;
@@ -270,7 +266,7 @@ nav ul {
 }
 
 nav ul li {
-    display: inline; 
+    display: flex; 
     margin: 0 10px;
 }
 
