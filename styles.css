@@ -544,13 +544,6 @@ select:focus + .focus {
   
 }
 
-footer{
-    display: flex;
-}
-
-footer a{
-    justify-content: right;
-}
 
 /* Additional styles for mobile screen */
 @media screen and (max-width: 480px) {
@@ -772,12 +765,13 @@ h4{
   
  
 }
-
+/*
 @media screen and (max-width: 768px) {
    form{
     display: flex;
    }
 }
+   */
 @media only screen and (max-width: 1200px) {
     header{
         display: flex;
