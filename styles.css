@@ -602,7 +602,7 @@ h4{
     padding-bottom: 20px;
   }
 
-  #plan div section{
+  #plan > div > section{
     display: inline-block;
     width: 200px;
     height: 200px;
@@ -610,7 +610,7 @@ h4{
   }
   
 
-  #plan div section img{
+  #plan > div >section > a > img{
     width: 100px;
     height: 100px;
   }
