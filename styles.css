@@ -852,6 +852,7 @@ footer a {
     footer{
         display: flex;
         flex-wrap: wrap;
+        justify-content: right;
     }
 
     footer p{
@@ -860,12 +861,7 @@ footer a {
         
     }
 
-    footer a {
-        justify-content: right;
-        
-        max-width: 1000px;
-        margin: 10px;
-    }
+    
 }
 
 
