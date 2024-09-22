@@ -569,9 +569,9 @@ h4{
  
   #img-grid{
     display: grid;
-    object-fit: cover;
-    grid-gap: 1rem;
-    width: 50%;
+    
+   
+    width: 100%;
     
   }
 
