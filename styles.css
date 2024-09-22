@@ -236,7 +236,6 @@ h4, p, q, small, nav, button, form{
 }
 
 
-
 nav ul {
     list-style-type: none;
     padding: 0;
@@ -524,22 +523,27 @@ select:focus + .focus {
 
   header{
    background-image: linear-gradient(var(--teal), var(--white));
-   
+    display: grid;
   }
-  header p{
-    margin: 20px;
-    text-align: left;
-    font-size: 1.5em;
-   }
- 
- 
+
    h1{
     font-size: 2em;
     text-align: left;
     margin: 20px;
    }
+  
+  header p{
+   
+   text-align: left;
+   
+  }
 
-   h3 {
+  h2{
+    font-size: 1.5em;
+    margin: 20px;
+  }
+
+  h3 {
     font-size: 1.25em; 
  
 }
@@ -549,22 +553,6 @@ h4{
     color: var(--black);
 }
 
-  
- 
-  #intro h2{
-    text-align: left;
-    font-size: 1.5em;
-    margin: 20px;
-    padding-left: 20px;
-    
-  }
-
- #intro p{
-    text-align: left;
-    font-size: 1.25em;
-    padding-left: 20px;
-    margin: 20px;
- }
 
  
  
