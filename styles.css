@@ -853,8 +853,10 @@ footer a {
    }
 
    footer a{
+    display: flex;
     justify-content: right;
-    margin-left: 20px;
+    
+    
    }
    
     
