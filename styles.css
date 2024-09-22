@@ -538,12 +538,13 @@ select:focus + .focus {
    
   }
 
-  h2{
+  #intro h2{
+    font-size: 1.5em;
     margin: 20px;
   }
 
-  h2, h3 {
-    font-size: 1.5em; 
+  h3 {
+    font-size: 1.25em; 
  
 }
 
