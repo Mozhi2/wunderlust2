@@ -553,17 +553,8 @@ h4{
 }
 
 
-  #intro h2, p{
-    text-align: left;
-    margin: 20px;
-    
-  }
-
-  #intro p{
-    font-family: "sans-serif";
-    text-align: center;
-    margin: 20px;
-  }
+ 
+ 
  
   #img-grid{
     display: grid;
