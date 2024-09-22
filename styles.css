@@ -555,7 +555,7 @@ footer{
 
 
 /* Additional styles for mobile screen */
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 600px) {
 
   header{
    background-image: linear-gradient(var(--teal), var(--white));
@@ -774,14 +774,46 @@ h4{
   
  
 }
-@media screen and (max-width: 768px) {
-    footer{
-        display:grid;
+@media screen and (min-width: 768px) {
+    header {
+        padding: 10px;
     }
+
+    nav ul {
+        display: block; /* Stack navigation items on mobile */
+        
+    }
+
+    nav ul li {
+        display: block; /* Change to block for mobile view */
+        
+        margin: 5px 0;
+    }
+    
+
+    #img-grid {
+        display: flex;
+        flex-direction: column; /* Stack images vertically */
+        
+        align-items: center;
+    }
+
+    #img-grid img {
+        max-width: 100%; /* Make images responsive */
+        
+        height: auto; /* Maintain aspect ratio */
     
     }
 
-@media only screen and (max-width: 1200px) {
+    #contact {
+        padding: 10px; /* Adjust padding for mobile */
+        
+    }
+}
+
+
+
+@media only screen and (min-width: 1200px) {
     header{
         display: flex;
         flex-wrap: wrap;
@@ -795,45 +827,7 @@ h4{
 }
 
 
-/*
-@media screen and (max-width: 768px) {
-    header {
-        padding: 10px;
-    }
 
-    nav ul {
-        display: block; /* Stack navigation items on mobile */
-        /*
-    }
-
-    nav ul li {
-        display: block; /* Change to block for mobile view */
-        /*
-        margin: 5px 0;
-    }
-    
-
-    #img-grid {
-        display: flex;
-        flex-direction: column; /* Stack images vertically */
-        /*
-        align-items: center;
-    }
-
-    #img-grid img {
-        max-width: 100%; /* Make images responsive */
-        /*
-        height: auto; /* Maintain aspect ratio */
-    /*
-    }
-
-    #contact {
-        padding: 10px; /* Adjust padding for mobile */
-        /*
-    }
-}
-
-*/
 
 
 /* ----- BODY STYLES ----- */
