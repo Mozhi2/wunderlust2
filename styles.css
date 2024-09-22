@@ -587,7 +587,7 @@ footer {
 
 footer a {
     justify-content: right;
-    max-width: 1000px;
+    
     margin: 10px;
 }
 
@@ -853,7 +853,7 @@ footer a {
    }
 
    footer a{
-    padding: 20px;
+   
      justify-content: right;
     
     
