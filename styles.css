@@ -544,7 +544,7 @@ h4{
 
   
   header p{
-   
+   margin: 20px;
    text-align: left;
    
   }
@@ -558,6 +558,7 @@ h4{
 
  #intro p{
     text-align: left;
+    margin: 20px;
  }
 
  
