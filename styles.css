@@ -544,7 +544,20 @@ select:focus + .focus {
   
 }
 
+form{
+    display: flex;
+}
+footer{
+    display: flex;
+}
 
+footer p{
+    justify-content: left;
+}
+
+footer a{
+    justify-content: right;
+}
 
 /* Additional styles for mobile screen */
 @media screen and (min-width: 480px) {
