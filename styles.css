@@ -863,6 +863,10 @@ footer a {
    footer p{
     text-align: left;
    }
+
+   footer a{
+    justify-content: right;
+   }
     
 }
 
