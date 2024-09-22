@@ -533,14 +533,21 @@ select:focus + .focus {
    }
   
   header p{
-   
+    margin: 20px;
    text-align: left;
-   
+   font-size: 1.75em;
   }
 
   #intro h2{
     font-size: 1.5em;
     margin: 20px;
+    text-align: left;
+  }
+
+  #intro p{
+    margin: 20px;
+    text-align: left;
+    font-size: 1.25em;
   }
 
   h3 {
