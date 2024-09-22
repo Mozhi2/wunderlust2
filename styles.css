@@ -513,7 +513,7 @@ select:focus + .focus {
    
    }
   
-  header h1, p{
+  header p{
    padding: 0; 
   }
 
