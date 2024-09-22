@@ -544,19 +544,8 @@ select:focus + .focus {
   
 }
 
-form{
-    display: flex;
-}
 footer{
     display: flex;
-}
-
-footer p{
-    justify-content: left;
-}
-
-footer a{
-    justify-content: right;
 }
 
 /* Additional styles for mobile screen */
@@ -779,6 +768,23 @@ h4{
   
  
 }
+
+@media screen and (max-width: 768px) {
+    form{
+        display: flex;
+    }
+    footer{
+        display: flex;
+    }
+    
+    footer p{
+        justify-content: left;
+    }
+    
+    footer a{
+        justify-content: right;
+    }
+}
 @media only screen and (max-width: 1200px) {
     header{
         display: flex;
@@ -787,6 +793,7 @@ h4{
     }
 
 }
+
 
 /*
 @media screen and (max-width: 768px) {
