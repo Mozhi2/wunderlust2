@@ -568,12 +568,9 @@ h4{
  
  
   #img-grid{
-    
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-        gap: 10px; /* Space between grid items */
-        width: 100%; /* Make the image responsive */
-        height: auto; /* Maintain aspect ratio */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
     }
     
   
