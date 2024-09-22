@@ -581,12 +581,14 @@ select:focus+.focus {
 
 
 footer {
-    justify-content: left;
-    padding: 10px;
+    text-align: left;
+    padding: 20px;
 }
 
 footer a {
-    justify-content: right;
+    display: flex;
+    align-items: right;
+    grid-gap: 1rem;
     max-width: 1000px;
     margin: 10px;
 }
@@ -842,15 +844,7 @@ footer a {
         grid-template-columns: repeat(2, 1fr);
         align-items: center;
     }
-
-    footer{
-        display: grid;
-        align-items: center;
-    }
     
-    footer a{
-        justify-content: center;
-    }
 }
 
 @media screen and (min-width: 1200px){
@@ -858,17 +852,14 @@ footer a {
   
 
     footer{
-  
+        display: flex;
+        flex-wrap: wrap;
         justify-content: left;
               
     }
 
    footer p{
     text-align: left;
-   }
-
-   footer a{
-    justify-content: center;
    }
     
 }
