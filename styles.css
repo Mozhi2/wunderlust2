@@ -848,6 +848,9 @@ footer a {
         align-items: center;
     }
     
+    footer a{
+        justify-content: center;
+    }
 }
 
 @media screen and (min-width: 1200px){
@@ -865,7 +868,7 @@ footer a {
    }
 
    footer a{
-    justify-content: right;
+    justify-content: center;
    }
     
 }
