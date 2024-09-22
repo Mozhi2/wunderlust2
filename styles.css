@@ -241,7 +241,7 @@ header p{
 }
 
     nav{
-        display: flex;
+        display: inline-block;
     }
     nav a{
       text-decoration:none;
@@ -275,6 +275,13 @@ h4, p, q, small, nav, button, form{
 h4{
     font-weight: bold;
 }
+
+#menu-toggle label {
+    position: relative;
+    display: block;
+    width: 30px;
+    height: 30px;
+  }
 
 
 
