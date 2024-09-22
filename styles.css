@@ -590,19 +590,23 @@ h4{
     
 #plan{
     background-color: var(--yellow);
-    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
  
-  #plan div > section{
+  #plan div{
     display: grid;
     align-items: center;
     background-color: var(--yellow);
     padding-bottom: 20px;
   }
   
- 
+/*
+  #plan section img{
 
+  }
+ 
+*/
 
     #plan h3{
         text-align: center;
