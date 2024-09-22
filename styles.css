@@ -450,6 +450,21 @@ nav ul li {
     text-align: right;
     padding: 0.5em;
 }
+
+input[type='checkbox']:not(:checked)+ul {
+    display: none;
+}
+
+
+nav input[type='checkbox'], nav label {
+    display: none;
+}
+nav label {
+    text-align: right;
+    display: block;
+    padding: 0.5em;
+    line-height: 1.6em;
+    align-self: center;
 }
 
   #intro h2, p{
