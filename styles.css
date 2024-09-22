@@ -580,21 +580,21 @@ h4{
   row-gap: 0.5rem;  
 }
     
-
-
- 
 #plan{
     background-color: var(--yellow);
     padding-bottom: 20px;
   }
   
- 
 
-    #plan div section h4{
-      
-        display: grid;
-         
-    }
+ 
+  #plan div > section{
+    display: grid;
+    align-items: center;
+    background-color: var(--yellow);
+    padding-bottom: 20px;
+  }
+  
+ 
 
 
     #plan h3{
@@ -607,17 +607,18 @@ h4{
       
     }
 
-    #plan img{
-      display: grid;
-      width: 50%;
-      height: 50%;
-      align-items: center;
-        padding: 50px; /* Space around the SVG */
-      
-        border: 2px solid #ffffff; /* Border around the box */
-        border-radius: 8px; /* Rounded corners */
-        background-color: var(--teal); /* Background color */
-       
+    #plan img {
+        display: grid;
+        width: 50%;
+        height: 50%;
+        align-items: center;
+        background-color: var(--teal);
+        padding: 50px;
+        border-width: 2px;
+        border-style: solid;
+        border-color: rgb(255, 255, 255);
+        border-image: initial;
+        border-radius: 8px;
     }
 
 
