@@ -838,13 +838,33 @@ footer a {
 
 }
 
-@media screen and (min-width: 768){
+@media screen and (min-width: 768px){
     #plan div{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         align-items: center;
     }
     
+}
+
+@media screen and (min-width: 1200px){
+
+    footer{
+        display: flex;
+    }
+
+    footer p{
+        text-align: left;
+        padding: 20px;
+        
+    }
+
+    footer a {
+        align-items: right;
+        grid-gap: 1rem;
+        max-width: 1000px;
+        margin: 10px;
+    }
 }
 
 
