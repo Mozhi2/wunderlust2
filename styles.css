@@ -221,70 +221,18 @@ header {
   
 }
 
-nav{
-        background-color: SeaGreen;
-        color: snow;
-        display: flex;
-        justify-content: space-between;
-    }
-    nav ul {
-        /* Make the markers disappear */
-        list-style-type: none;
-    }
-    nav ul li {
-        /* Puts the elements in a single line */
-        display: inline-flex;
-        margin: 0.3em 1em;
-    }
-
-    nav {
-        flex-direction: row;
-        flex-wrap: wrap;
-        margin-left: 0;
-        margin-right: 0;
-    }
-    /* Because we are in mobile mode, we want to display it as a
-       vertical list */
-    nav ul {
-        display: block;
-    }
-    /* We have two lists: the first one are the always visibile items
-       in the menu bar. The second one is the one that will be hidden */
-    nav ul:last-child {
-        width: 100%;
-        flex-basis: 100%;
-    }
-    nav ul li {
-        margin-bottom: 0;
-        width: 100%;
-        text-align: right;
-        padding: 0.5em;
-    }
-    
-    input[type='checkbox']:not(:checked)+ul {
-        display: none;
-    }
-    
-    
-    nav input[type='checkbox'], nav label {
-        display: none;
-    }
-    nav label {
-        text-align: right;
-        display: block;
-        padding: 0.5em;
-        line-height: 1.6em;
-        align-self: center;
-    }
 
 /* Navigation styles */
-/*
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
 nav ul li {
     display: inline; /* Default for desktop view */
-    /*
     margin: 0 10px;
 }
-*/
+
 
 #lName, #fName, #email, #phone, .required input {
     font-size: 16px;
@@ -455,7 +403,7 @@ select:focus + .focus {
 
 
 /* Additional styles for mobile screen */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 576px) {
 
   header{
    background-image: linear-gradient(var(--teal), var(--white));
@@ -466,56 +414,6 @@ select:focus + .focus {
   header h1, p{
    padding: 0; 
   }
-
-  nav {
-    display: flex;
-    /* justify-content: space-between; */
-  }
-nav ul {
-    flex: 1;
-    display: flex;
-    margin-top: 60px;
-} 
-
-nav label{
-    display: none;
-}
-
- 
-ul{
-    overflow: visible;
-    max-height: 100px;
-}
-
-nav ul li:first-child{
-    order: 1;
-    left: 80px;
-   
-  }
-
-  nav ul li:last-child{
-      order: 4;
-      margin-bottom: 10px;
-  }
-
-  nav ul li a{
-    display: flex;
-    flex-direction: column;
-    text-decoration: none;
-    color:#eb5428;
-    margin-left: 12px;
-   
-    font-size: 12px;
-    font-weight: bold;
-}
-
-
-nav ul li:not(:first-child):not(:last-child){
-    display: flex;
-    order: 3;
-    margin-top: 10px;
-    margin-right: 20px;
-}
 
   #intro h2, p{
     text-align: left;
