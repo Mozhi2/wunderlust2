@@ -467,7 +467,55 @@ select:focus + .focus {
    padding: 0; 
   }
 
+  nav {
+    display: flex;
+    /* justify-content: space-between; */
+  }
+nav ul {
+    flex: 1;
+    display: flex;
+    margin-top: 60px;
+} 
 
+nav label{
+    display: none;
+}
+
+ 
+ul{
+    overflow: visible;
+    max-height: 100px;
+}
+
+nav ul li:first-child{
+    order: 1;
+    left: 80px;
+   
+  }
+
+  nav ul li:last-child{
+      order: 4;
+      margin-bottom: 10px;
+  }
+
+  nav ul li a{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color:#eb5428;
+    margin-left: 12px;
+   
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+nav ul li:not(:first-child):not(:last-child){
+    display: flex;
+    order: 3;
+    margin-top: 10px;
+    margin-right: 20px;
+}
 
   #intro h2, p{
     text-align: left;
