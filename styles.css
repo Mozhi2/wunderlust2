@@ -568,15 +568,13 @@ h4{
  
  
   #img-grid{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  display: grid;
+  grid-column-start: 1;
+  grid-column-start: -1;
+  row-gap: 1rem;
     }
     
-  
-    .img-grid:nth-child(3) picture{
-        width: 250px; 
-    }
+
 
  
   #plan{
