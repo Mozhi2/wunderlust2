@@ -786,23 +786,7 @@ h4{
         flex-grow: 1;;
     }
 
-    form{
-        display: flex;
-    }
-    footer{
-        display: flex;
-    }
-
-    footer p{
-        justify-content: left;
-    }
-
-    footer a{
-        justify-content: right;
-    }
-  
 }
-
 
 /*
 @media screen and (max-width: 768px) {
