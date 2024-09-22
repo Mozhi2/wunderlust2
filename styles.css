@@ -544,6 +544,10 @@ select:focus + .focus {
   
 }
 
+#testimonials{
+   display: flex;
+}
+
 footer{
     display: flex;
 }
@@ -770,14 +774,14 @@ h4{
   
  
 }
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
     footer{
         display:grid;
     }
     
     }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (max-width: 1200px) {
     header{
         display: flex;
         flex-wrap: wrap;
