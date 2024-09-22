@@ -566,6 +566,7 @@ select:focus + .focus {
 
   h3 {
     font-size: 1.25em; 
+    text-align: center;
  
 }
 
@@ -603,11 +604,6 @@ h4{
   
  
 
-
-    #plan h3{
-        text-align: center;
-      
-  }
     #plan h4{
       display: grid;
       text-align: center;
