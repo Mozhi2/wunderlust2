@@ -240,9 +240,7 @@ header p{
     margin-left: 20px;
 }
 
-    nav{
-        display: inline-block;
-    }
+    
     nav a{
       text-decoration:none;
       text-align: center;
@@ -275,13 +273,6 @@ h4, p, q, small, nav, button, form{
 h4{
     font-weight: bold;
 }
-
-#menu-toggle label {
-    position: relative;
-    display: none;
-    width: 30px;
-    height: 30px;
-  }
 
 
 
@@ -777,7 +768,7 @@ h4{
     max-width: 1000px;
     margin: 10px;
     }
-  /*
+  
  
 }
 @media screen and (min-width: 768px) {
@@ -789,16 +780,16 @@ h4{
     
 
     nav ul {
-        display: block; 
+        display: block; /* Stack navigation items on mobile */
         
     }
 
     nav ul li {
-        display: block; 
+        display: block; /* Change to block for mobile view */
         
         margin: 5px 0;
     }
-    */
+    
 
     #img-grid {
         display: flex;
