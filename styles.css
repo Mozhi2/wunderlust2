@@ -523,9 +523,15 @@ select:focus + .focus {
 
   header{
    background-image: linear-gradient(var(--teal), var(--white));
-    display: grid;
+   
   }
-
+  header p{
+    margin: 20px;
+    text-align: left;
+    
+   }
+ 
+ 
    h1{
     font-size: 2em;
     text-align: left;
@@ -543,13 +549,7 @@ h4{
 }
 
   
-  header p{
-   margin: 20px;
-   text-align: left;
-   
-  }
-
-
+ 
   #intro h2{
     text-align: left;
     font-size: 1.5em;
