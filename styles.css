@@ -845,13 +845,18 @@ footer a {
         align-items: center;
     }
 
-    footer a{
-        justify-content: right;
-    }
-    
+ 
 }
 
 @media screen and (min-width: 1200px){
+
+    #contact{
+        display: grid;
+    }
+
+    #names input{
+        width: 100%;
+    }
 
     footer{
         display: flex;
