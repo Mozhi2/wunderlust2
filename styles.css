@@ -766,6 +766,13 @@ h4{
   
  
 }
+@media screen and (max-width: 768px) {
+    footer{
+        display:grid;
+    }
+    
+    }
+
 @media only screen and (max-width: 1200px) {
     header{
         display: flex;
@@ -773,6 +780,9 @@ h4{
         flex-grow: 1;
     }
     
+    footer{
+        display:flex;
+    }
   
 }
 
