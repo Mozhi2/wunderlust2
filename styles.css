@@ -838,8 +838,8 @@ footer a {
 
 }
 
-@media screen and (max-width: 900){
-    #plan section{
+@media screen and (min-width: 768){
+    #plan div{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         align-items: center;
