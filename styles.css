@@ -625,7 +625,7 @@ h4{
     }
 
 
-    #testimonials{
+    #testimonials div{
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         gap: 0.5rem;
@@ -642,7 +642,7 @@ h4{
     margin: 10px;
   }
     #about{
-    
+      
       background-color: var(--blue);
     }
   #about h3{
