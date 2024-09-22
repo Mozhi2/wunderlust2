@@ -583,8 +583,15 @@ h4{
   width: 100%;
   row-gap: 0.5rem;  
 }
-    
 
+#img-grid picture{
+    height: 100%;
+}
+    
+#plan{
+    background-color: var(--yellow);
+    margin-bottom: 20px;
+}
 
  
   #plan div > section{
