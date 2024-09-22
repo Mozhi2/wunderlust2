@@ -851,9 +851,8 @@ footer a {
    }
 
    footer a{
-     display: grid;
-     grid-template-rows: repeat(2, 1fr);
-     align-items: right;
+     margin-left: -20px;
+     justify-content: right;
     
     
    }
