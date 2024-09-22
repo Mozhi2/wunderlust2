@@ -625,7 +625,7 @@ h4{
     }
 
 
-    #testimonials div{
+    #testimonials{
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         gap: 0.5rem;
@@ -658,7 +658,7 @@ h4{
   }
   
 
-  #about img, h4, p{
+  #about h4, p{
    
     text-align: center;
    
