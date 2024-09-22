@@ -572,7 +572,9 @@ h4{
 
 
  
- 
+ #img-grid{
+    margin:20px;
+ }
  
   #img-grid img{
   display: grid;
