@@ -210,7 +210,7 @@ body {
     color: var(--black);
     line-height: 1.35;
     box-sizing: border-box;
-  font-family: var(--fonts);
+    font-family: var(--fonts);
     margin: 0 auto;
     padding: 0;
   }
@@ -518,6 +518,10 @@ select:focus + .focus {
    background-image: linear-gradient(var(--teal), var(--white));
     display: grid;
    
+   }
+
+   h1{
+    text-align: center;
    }
   
   header p{
