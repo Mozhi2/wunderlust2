@@ -580,6 +580,14 @@ select:focus+.focus {
 }
 
 
+footer {
+    justify-content: left;
+    padding: 10px;
+}
+
+footer a {
+    justify-content: right;
+}
 
 
 
@@ -843,7 +851,7 @@ select:focus+.focus {
    }
 
    footer a{
-    
+     margin-left: -20px;
      justify-content: right;
     
     
