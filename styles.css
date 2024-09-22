@@ -577,7 +577,7 @@ h4{
     }
     
   
-    .img-grid:nth-child(3) img {
+    .img-grid:nth-child(3) picture{
         width: 250px; 
     }
 
