@@ -863,6 +863,11 @@ footer a {
         width: 100%;
     }
 
+    #nums{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
     footer{
         display: flex;
         flex-wrap: wrap;
