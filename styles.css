@@ -617,7 +617,9 @@ nav{
 }
 
 
- 
+ nav li{
+    display: flex;
+ }
 
  
   #img-grid img{
