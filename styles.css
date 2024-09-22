@@ -591,6 +591,7 @@ h4{
 #plan{
     background-color: var(--yellow);
     margin-top: 20px;
+    text-align: center;
 }
 
  
@@ -600,13 +601,21 @@ h4{
     background-color: var(--yellow);
     padding-bottom: 20px;
   }
-  
-/*
-  #plan section img{
 
+  #plan div section{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: var(--teal);
+  }
+  
+
+  #plan div section img{
+    width: 100px;
+    height: 100px;
   }
  
-*/
+
 
     #plan h3{
         text-align: center;
