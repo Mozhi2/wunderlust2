@@ -227,6 +227,13 @@ h1 {
     text-align: center;
 }
 
+h1, h2, h3{
+    font-family: "Molle";
+}
+
+h4, p, q, small, nav, button, form{
+    font-family: "Montserrat";
+}
 
 
 nav ul {
@@ -521,6 +528,7 @@ select:focus + .focus {
    }
 
    h1{
+    font-size: 20px;;
     text-align: left;
    }
   
