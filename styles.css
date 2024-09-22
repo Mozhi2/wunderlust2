@@ -241,7 +241,7 @@ header p{
 }
 
     nav{
-      display: inline-block;
+        display: inline-block;
     }
     nav a{
       text-decoration:none;
@@ -255,7 +255,6 @@ header p{
       border-radius: 0.25rem;
     }
     nav li {
-        display: flex;
       list-style:none;
     }
 
@@ -551,13 +550,12 @@ select:focus + .focus {
   
 }
 
+#testimonials{
+   display: flex;
+}
 
 footer{
     display: flex;
-}
-
-footer a{
-    justify-content: right;
 }
 
 
@@ -612,10 +610,8 @@ h4{
     color: var(--black);
 }
 
-nav li ul{
-    display: flex;
-}
 
+ 
 
  
   #img-grid img{
@@ -781,7 +777,6 @@ nav li ul{
     max-width: 1000px;
     margin: 10px;
     }
-}
   /*
  
 }
@@ -805,7 +800,27 @@ nav li ul{
     }
     */
 
-/*
+    #img-grid {
+        display: flex;
+        flex-direction: row; 
+        
+        align-items: center;
+    }
+
+    #img-grid img {
+        max-width: 100%; /* Make images responsive */
+        
+        height: auto; /* Maintain aspect ratio */
+    
+    }
+
+    #contact {
+        padding: 10px; /* Adjust padding for mobile */
+        
+    }
+}
+
+
 
 @media only screen and (min-width: 1200px) {
     header{
