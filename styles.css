@@ -221,10 +221,7 @@ header {
   
 }
 
-#logo a{
-    width: 50%;
-    height: 50%;
-}
+
 
 h1 {
     font-size: 2em; 
@@ -580,8 +577,8 @@ h4{
   #img-grid img{
   display: grid;
   width: 100%;
-  row-gap: 1rem;
-    }
+  grid-gap: 1rem;
+  }
     
 
 
