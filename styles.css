@@ -224,7 +224,7 @@ header {
 h1 {
     font-size: 2em; 
     text-align: left;
-    margin-left: 20px;
+   
 }
 
 h1, h2, h3{
@@ -529,6 +529,7 @@ select:focus + .focus {
    h1{
     font-size: 2em;
     text-align: left;
+    margin-left: 20px;
    }
   
   header p{
