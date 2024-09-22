@@ -769,9 +769,23 @@ h4{
 @media only screen and (max-width: 1200px) {
     header{
         display: flex;
-        flex-direction: row;
         flex-wrap: wrap;
         flex-grow: 1;;
+    }
+
+    form{
+        display: flex;
+    }
+    footer{
+        display: flex;
+    }
+
+    footer p{
+        justify-content: left;
+    }
+
+    footer a{
+        justify-content: right;
     }
   
 }
