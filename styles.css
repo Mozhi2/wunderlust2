@@ -222,9 +222,8 @@ header {
 }
 
 h1 {
-    font-size: 1.5em; /* Adjust header size */
-    font-family: Molle, "sans-serif";
-    text-align: center;
+    font-size: 2em; 
+    text-align: left;
 }
 
 h1, h2, h3{
@@ -524,11 +523,10 @@ select:focus + .focus {
   header{
    background-image: linear-gradient(var(--teal), var(--white));
     display: grid;
-   
-   }
+  }
 
    h1{
-    font-size: 20px;;
+    font-size: 2em;
     text-align: left;
    }
   
@@ -536,6 +534,17 @@ select:focus + .focus {
    padding: 0; 
    text-align: left;
   }
+
+  h2, h3 {
+    font-size: 1.25em; /* Adjust section header sizes */
+ 
+}
+
+h4{
+    
+    color: var(--black);
+}
+
 
   #intro h2, p{
     text-align: left;
@@ -556,18 +565,6 @@ select:focus + .focus {
   }
 
  
-
-
-    h2, h3 {
-        font-size: 1.25em; /* Adjust section header sizes */
-        font-family: Molle, "sans-serif";
-    }
-
-    h4{
-        font-family: "sans-serif";
-        color: var(--black);
-    }
-  
   #plan{
     display: grid;
     align-items: center;
