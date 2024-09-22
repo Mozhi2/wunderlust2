@@ -217,11 +217,11 @@ body {
   }
 
 /* Header styles */
-header {
-    padding: 20px;
-  
-}
 
+
+header p{
+    margin-left: 20px;
+}
 nav {
     /*
       SET GRID COLUMN TO START IN 1 AND END IN -1
