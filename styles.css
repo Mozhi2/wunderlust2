@@ -862,9 +862,19 @@ select:focus+.focus {
         padding: 20px;
         align-items: center;
     }
+
     footer{
         display: flex;
-        justify-content: space-evenly;
+    }
+
+    footer p{
+        display: flex;
+        justify-content: flex;
+    }
+
+    footer a {
+        display: flex;
+        justify-content: flex-end;
     }
 
 
@@ -925,13 +935,14 @@ select:focus+.focus {
         width: 50;
 
     }
-    
-   
-    
+
+    footer {
+        display: flex;
+
+    }
 
     footer p {
-    display: flex;
-     justify-content: flex-start;
+        justify-content: flex-start;
 
 
     }
