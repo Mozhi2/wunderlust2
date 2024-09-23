@@ -851,7 +851,9 @@ footer a {
 @media screen and (min-width: 1200px){
 
  
-    
+    form{
+        justify-content: center;
+    }
 
     #names{
         display: grid;
