@@ -221,6 +221,9 @@ body {
 
 header {
     width: 100%;
+   
+    padding: 1rem 0;
+
 }
     
 
@@ -867,32 +870,19 @@ footer {
 
     #manu-toggle {
         display: flex;
-        justify-content: center;
     }
-    nav ul {
-        display: flex;
-        
-        padding: 0;
-    }
-    
-    
 
-    nav li {
+    nav {
         display: flex;
     }
 
-    nav ul li {
-        display: flex;
-        margin: 0 10px;  
-    }
-
-    
-        
     nav a {
         display: flex;
 
     }
-
+    nav ul li{
+        justify-content: space-around;
+    }
     #img-grid {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -901,7 +891,7 @@ footer {
         /* Two rows */
         gap: 10px;
         /* Optional spacing between images */
-        
+        justify-content: end;
         
     }
 
@@ -984,11 +974,16 @@ footer {
 
 @media screen and (min-width: 1200px) {
 
+    header {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+    }
 
 
     nav ul {
         display: flex;
-        
+        justify-content: space-between; /* Adjusts space evenly */
         padding: 0;
     }
     
@@ -1021,7 +1016,7 @@ footer {
 
     #menu-toggle {
         display: flex;
-        justify-content: flex-end;
+        flex-wrap: wrap;
 
     }
 
@@ -1033,7 +1028,7 @@ footer {
         /* Two rows */
         gap: 10px;
         /* Optional spacing between images */
-       
+        justify-content: end;
         
     }
 
