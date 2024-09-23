@@ -872,6 +872,7 @@ footer a {
     }
 
     #names label {
+        display: grid;
         font-weight: bold;
         font-size: 17px;
     }
