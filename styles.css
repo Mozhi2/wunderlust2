@@ -873,7 +873,7 @@ footer {
     }
     nav ul {
         display: flex;
-        justify-content: space-around; 
+        
         padding: 0;
     }
     
@@ -990,7 +990,7 @@ footer {
 
     nav ul {
         display: flex;
-        justify-content: space-around; 
+        
         padding: 0;
     }
     
@@ -1023,7 +1023,7 @@ footer {
 
     #menu-toggle {
         display: flex;
-        flex-wrap: wrap;
+      
 
     }
 
