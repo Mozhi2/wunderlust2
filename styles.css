@@ -867,6 +867,7 @@ footer a{
 }
 
 @media screen and (min-width: 768px) {
+   
 
     #menu-toggle label {
         display: none;
@@ -993,11 +994,19 @@ footer a{
 @media screen and (min-width: 1200px) {
 
     header {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-
+        display: flex;
+        justify-content: space-between; /* Aligns items to the sides */
+        align-items: center;           /* Vertically centers items */
+        padding: 20px;
+        background-color: #f8f8f8;
+        position: relative;            /* Required for absolute positioning */
     }
-
+    
+    nav {
+        position: absolute;            /* Positions the nav absolutely within the header */
+        top: 20px;                    /* Adjust as needed */
+        right: 20px;                  /* Adjust as needed */
+    }
 
     nav ul {
         display: flex;
