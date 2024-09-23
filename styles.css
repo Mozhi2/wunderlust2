@@ -867,6 +867,7 @@ footer {
 
     #manu-toggle {
         display: flex;
+        justify-content: center;
     }
     nav ul {
         display: flex;
