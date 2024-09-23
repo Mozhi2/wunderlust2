@@ -930,7 +930,9 @@ footer {
     h1 {
         align-items: center;
     }
-
+    nav{
+        display: flex;
+    }
 
         #intro{
             display: grid;
