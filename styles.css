@@ -221,9 +221,6 @@ body {
 
 header {
     width: 100%;
-   
-    padding: 1rem 0;
-
 }
     
 
@@ -871,18 +868,30 @@ footer {
     #manu-toggle {
         display: flex;
     }
+    nav ul {
+        display: flex;
+        
+        padding: 0;
+    }
+    
+    
 
-    nav {
+    nav li {
         display: flex;
     }
 
+    nav ul li {
+        display: flex;
+        margin: 0 10px;  
+    }
+
+    
+        
     nav a {
         display: flex;
 
     }
-    nav ul li{
-        justify-content: space-around;
-    }
+
     #img-grid {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -974,16 +983,11 @@ footer {
 
 @media screen and (min-width: 1200px) {
 
-    header {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-
-    }
 
 
     nav ul {
         display: flex;
-        justify-content: space-between; 
+        
         padding: 0;
     }
     
@@ -1016,7 +1020,7 @@ footer {
 
     #menu-toggle {
         display: flex;
-        flex-wrap: wrap;
+        
 
     }
 
