@@ -573,8 +573,9 @@ select:focus+.focus {
 
 }
 
-#testimonials {
+#testimonials div section{
     display: flex;
+    justify-content: space-between;
 }
 
 
