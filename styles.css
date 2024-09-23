@@ -868,6 +868,14 @@ footer a {
     #about div img{
         justify-content: center;
     }
+
+    #testimonials{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+        padding: 20px;
+        align-items: center;
+    }
  
 }
 
