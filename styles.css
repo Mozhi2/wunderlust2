@@ -863,9 +863,8 @@ select:focus+.focus {
         align-items: center;
     }
 
-    footer{
-        display: flex;
-    }
+  
+    
 
     footer p{
         display: flex;
@@ -936,14 +935,12 @@ select:focus+.focus {
 
     }
 
-    footer {
-        display: flex;
-
-    }
+   
+    
 
     footer p {
     display: flex;
-        justify-content: flex-start;
+     justify-content: flex-start;
 
 
     }
