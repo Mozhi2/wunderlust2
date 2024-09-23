@@ -838,50 +838,59 @@ footer a {
 
 }
 
-@media screen and (min-width: 768px){
-    #plan div{
+@media screen and (min-width: 768px) {
+    #plan div {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         align-items: center;
     }
 
- 
+
 }
 
-@media screen and (min-width: 1200px){
+@media screen and (min-width: 1200px) {
 
-    #contact{
-        display: grid;
+    #contact {
+        display: flex;
     }
 
 
-    #names{
+    #names {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
-    #names input{
+
+    #names input {
         width: 100%;
     }
 
-    #nums{
+    #nums {
         display: flex;
-      
+
     }
 
-    footer{
+    #mySubmit {
+        width: 50%;
+    }
+
+    #radio-input {
+        display: flex;
+    }
+
+    footer {
         display: flex;
         flex-wrap: wrap;
     }
 
-    footer p{
+    footer p {
         justify-content: left;
-       
-        
+
+
     }
 
     footer a {
         justify-content: right;
-            max-width: 1000px;
+        max-width: 1000px;
         margin: 10px;
     }
 }
