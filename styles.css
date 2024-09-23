@@ -1009,6 +1009,7 @@ footer {
         /* Two rows */
         gap: 10px;
         /* Optional spacing between images */
+        justify-content: end;
         
     }
 
@@ -1027,7 +1028,7 @@ footer {
 
 
 
-    #intro h2, p{
+    #intro{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
     }
