@@ -851,13 +851,10 @@ footer a {
 @media screen and (min-width: 1200px) {
 
  
-#contact{
-    display:grid;
-}
-  
+ 
     
     
-    form{
+    form, #names, #nums, #selects,{
         display: grid;
     }
 
