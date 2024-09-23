@@ -286,7 +286,9 @@ form {
 h4 {
     font-weight: bold;
 }
-
+ a{
+    text-decoration: none;
+ }
 
 
 /*
@@ -882,8 +884,7 @@ footer {
     }
 
     nav ul li {
-        display: flex;
-        margin: 0 10px;  
+        display: inline-block;
     }
 
     
@@ -999,8 +1000,8 @@ footer {
     }
 
     nav ul li {
-        display: flex;
-        margin: 0 10px;  
+        display: inline-block;
+       
     }
 
     
