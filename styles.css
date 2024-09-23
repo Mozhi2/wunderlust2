@@ -905,6 +905,11 @@ footer a {
      #nums fieldset input{
         width: 100%;
      }
+
+     #testimonials div{
+        display: flex;
+        justify-content: space-between;
+     }
     
     #mySubmit{
        
@@ -926,7 +931,8 @@ footer a {
     footer a {
         justify-content: right;
             max-width: 1000px;
-        margin: 10px;
+            margin: 10px;
+            justify-content: space-between;
     }
 }
 
