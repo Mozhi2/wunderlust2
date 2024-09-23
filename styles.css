@@ -957,7 +957,19 @@ footer {
        
     }
 
-    nav li{
+    nav ul{
+        display: flex;
+    }
+
+      nav li{
+        display: flex;
+    }
+
+    nav ul li{
+        display: flex;
+        
+    }
+    nav a{
         display: flex;
     }
 
