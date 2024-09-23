@@ -848,9 +848,7 @@ footer a {
 
 @media screen and (min-width: 1200px){
 
-    form input{
-        width: 100%;
-    }
+ 
     
 
     #names{
@@ -865,6 +863,10 @@ footer a {
 
     #nums fieldset{
         display: flex;
+    }
+
+    #nums input{
+        width: 100%;
     }
 
     #email input{
