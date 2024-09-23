@@ -867,7 +867,10 @@ footer a{
 }
 
 @media screen and (min-width: 768px) {
-   
+
+    header{
+        display: flex;
+    }
 
     #menu-toggle label {
         display: none;
@@ -879,7 +882,7 @@ footer a{
 
     nav ul {
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-between;
         padding: 0;
     }
     
@@ -910,7 +913,7 @@ footer a{
         /* Two rows */
         gap: 10px;
         /* Optional spacing between images */
-        justify-content: end;
+        align-items: center;
         
     }
 
@@ -994,23 +997,15 @@ footer a{
 @media screen and (min-width: 1200px) {
 
     header {
-        display: flex;
-        justify-content: space-between; /* Aligns items to the sides */
-        align-items: center;           /* Vertically centers items */
-        padding: 20px;
-        background-color: #f8f8f8;
-        position: relative;            /* Required for absolute positioning */
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
     }
-    
-    nav {
-        position: absolute;            /* Positions the nav absolutely within the header */
-        top: 20px;                    /* Adjust as needed */
-        right: 20px;                  /* Adjust as needed */
-    }
+
 
     nav ul {
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-between;
         padding: 0;
     }
     
@@ -1053,7 +1048,7 @@ footer a{
         /* Two rows */
         gap: 10px;
         /* Optional spacing between images */
-        justify-content: end;
+        align-items: center;
         
     }
 
