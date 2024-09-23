@@ -284,10 +284,6 @@ h4 {
 }
 
 
-form{
-    justify-content: center;
-}
-
 /*
   
   #menu-toggle {
@@ -863,6 +859,10 @@ footer a {
     }
     #names label{
         margin-right: 20px;
+    }
+
+    #nums fieldset{
+        display: flex;
     }
 
     footer{
