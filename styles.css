@@ -589,7 +589,7 @@ select:focus+.focus {
 #mySubmit:focus {
     outline-color: transparent;
     outline-style:solid;
-    box-shadow: 0 0 0 4px #5a01a7;
+    box-shadow: 0 0 0 4px var(--purple);
 }
 
 
@@ -886,7 +886,7 @@ footer a {
      }
     
     #mySubmit{
-        justify-content: center;
+       
        width: 50;
         
     }
