@@ -149,6 +149,7 @@ table {
     --light-gray: #EAEAEA;
     --white: #FFFFFF;
     --black: #000000;
+    --orange: #ffa500;
     font-size: 16px;
     --fonts: "Molle", Montserrat, sans-serif;
     --input-border: #8b8a8b;
@@ -230,12 +231,13 @@ header {
     padding: 0;
 }
 
+/*
 a {
     display: block;
     padding: 1rem;
     color: var(--maroon);
 }
-
+*/
 header p {
     margin-left: 20px;
 }
@@ -255,6 +257,10 @@ nav a {
 
 nav li {
     list-style: none;
+}
+
+nav a:hover{
+    background-color: var(--orange);
 }
 
 h1 {
@@ -938,7 +944,10 @@ footer {
 
         nav a{
             display: flex;
+            width: 50%
         }
+
+
     
         #intro{
             display: grid;
