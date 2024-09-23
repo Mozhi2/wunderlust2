@@ -851,15 +851,16 @@ footer a {
 @media screen and (min-width: 1200px){
 
  
-    form{
-        justify-content: center;
-    }
+    
 
     #names{
         display: grid;
     }
     #names input{
         width: 100%;
+    }
+    #names label{
+        margin-right: 20px;
     }
 
     footer{
