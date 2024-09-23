@@ -882,6 +882,12 @@ footer a {
 
 @media screen and (min-width: 1200px){
 
+    header{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 0.5rem;
+    }
+
     #plan div{
         display: flex;
         justify-content: space-evenly;
@@ -892,18 +898,6 @@ footer a {
         justify-content: space-evenly;
     }
 
-    #intro h2, p{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        justify-content: left;
-    }
-    
-    article #img-grid{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        flex-grow: 1;
-    }
 
         
     #names{
