@@ -930,10 +930,16 @@ footer {
     h1 {
         align-items: center;
     }
-    nav, nav ul, nav ul li{
-        display: flex;
-    }
+  
 
+        #menu-toggle label{
+            display: none;
+        }
+
+        nav a{
+            display: flex;
+        }
+    
         #intro{
             display: grid;
         }
