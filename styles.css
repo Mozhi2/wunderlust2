@@ -283,6 +283,9 @@ h4 {
     font-weight: bold;
 }
 
+#img-grid{
+    display: grid;
+}
 
 
 /*
@@ -664,9 +667,9 @@ footer {
 
 
 
-    #img-grid img {
+    #img-grid{
         display: grid;
-        row-gap: 0.5rem;
+        gap: 1rem;
         width: 100%;
        
     }
@@ -879,7 +882,7 @@ footer {
 
     .img-grid {
         display: grid;
-        grid-template-columns: repeat(2, 1fr); /* Two columns */
+       
         grid-template-rows: auto auto; /* Two rows */
         gap: 10px; /* Optional spacing between images */
     }
