@@ -984,6 +984,7 @@ footer {
 
         #menu-toggle{
             display: flex;
+            flex-wrap: wrap;
         
         }
 
