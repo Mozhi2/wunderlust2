@@ -865,7 +865,11 @@ footer a {
         display: flex;
     }
 
-    #email, #phone input{
+    #email input{
+        width: 100%;
+    }
+
+    #phone input{
         width: 100%;
     }
 
