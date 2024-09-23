@@ -930,7 +930,7 @@ footer {
     h1 {
         align-items: center;
     }
-    nav{
+    nav, nav ul, nav ul li{
         display: flex;
     }
 
