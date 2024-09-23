@@ -888,6 +888,9 @@ footer a {
         grid-gap: 0.5rem;
     }
 
+    h1{
+        align-items: center;
+    }
     #plan div{
         display: flex;
         justify-content: space-evenly;
