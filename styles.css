@@ -857,7 +857,7 @@ footer {
         padding: 20px;
     }
 
-    article > #intro > #img-gride{
+    article #intro #img-grid{
         display: grid;
         grid-template-columns: 1fr 1fr 2fr;
         
