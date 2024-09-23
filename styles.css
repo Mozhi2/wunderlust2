@@ -869,13 +869,14 @@ footer a {
         justify-content: center;
     }
 
-    #testimonials{
+    #testimonials section{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 1rem;
         padding: 20px;
         align-items: center;
     }
+
  
 }
 
@@ -911,8 +912,7 @@ footer a {
        width: 50;
         
     }
-
-
+  
     footer{
         display: flex;
         flex-wrap: wrap;
