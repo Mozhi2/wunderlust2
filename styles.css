@@ -591,10 +591,8 @@ select:focus+.focus {
 
 
 
-footer{
-
+footer {
     background-color: var(--light-gray);
-
 }
 
 
@@ -823,14 +821,14 @@ footer{
         font-size: 20px;
     }
 
-    footer{
+    footer {
         display: flex;
         justify-content: space-evenly;
         background-color: var(--light-gray);
         padding: 20px;
     }
 
-/*
+    /*
     footer {
         text-align: center;
         padding: 20px;
@@ -875,19 +873,19 @@ footer{
         align-items: center;
     }
 
-    footer{
+    footer {
         display: flex;
         background-color: var(--light-gray);
     }
 
-    footer p{
+    footer p {
         display: flex;
-       
+
     }
 
     footer a {
         display: flex;
-        
+
     }
 
 
@@ -949,21 +947,21 @@ footer{
 
     }
 
-    footer{
+    footer {
         display: flex;
         background-color: var(--light-gray);
 
     }
 
-    footer p{
-       display: flex;
+    footer p {
+        display: flex;
 
 
     }
 
-    footer a{
+    footer a {
         display: flex;
-     
+
     }
 }
 
