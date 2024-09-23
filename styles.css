@@ -850,14 +850,64 @@ footer a {
 
 @media screen and (min-width: 1200px) {
 
-    #contact
+ 
 
   
     #names {
         display: grid;
-        grid-template-rows: repeat(2, 1fr);
-        column-gap: 0;
+      
     }
+
+    form,
+    #mySubmit {
+        display: grid;
+        justify-content: center;
+        width: 100%;
+    }
+
+    #contact h3 {
+        text-align: center;
+        font-weight: bold;
+
+    }
+
+    #names label {
+        font-weight: bold;
+        font-size: 17px;
+    }
+
+
+    #nums legend {
+        font-weight: bold;
+    }
+
+    #nums,
+    #selects label {
+        font-weight: bold;
+        font-size: 17px;
+    }
+
+
+    .radio-label {
+        font-weight: normal;
+
+    }
+
+
+    input,
+    select {
+        display: grid;
+        align-items: center;
+        margin-bottom: 10px;
+        align-items: center;
+
+    }
+
+    #nums label {
+        display: flex;
+        margin-top: 8px;
+    }
+}
 /*
     #names input {
         width: 100%;
