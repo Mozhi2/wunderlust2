@@ -862,18 +862,9 @@ select:focus+.focus {
         padding: 20px;
         align-items: center;
     }
-
-  
-    
-
-    footer p{
+    footer{
         display: flex;
-        justify-content: flex-start;
-    }
-
-    footer a {
-        display: flex;
-        justify-content: flex-end;
+        justify-content: space-evenly;
     }
 
 
@@ -935,22 +926,16 @@ select:focus+.focus {
 
     }
 
-   
-    
-
-    footer p {
+footer{
     display: flex;
-     justify-content: flex-start;
-
-
-    }
-
-    footer a {
-        display: flex;
-       
-        justify-content: flex-end;
-    }
+    justify-content: space-evenly;
 }
+
+   
+}
+
+   
+
 
 
 /* ----- BODY STYLES ----- */
