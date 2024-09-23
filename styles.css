@@ -865,7 +865,9 @@ footer a {
         align-items: center;
     }
 
-  
+    #about div section img{
+        margin-left: 20px;
+    }
     #testimonials div{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
