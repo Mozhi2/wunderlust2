@@ -864,6 +864,10 @@ footer a {
         padding: 20px;
         align-items: center;
     }
+
+    #about div img{
+        justify-content: center;
+    }
  
 }
 
