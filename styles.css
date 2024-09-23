@@ -884,12 +884,12 @@ footer {
         gap: 10px; /* Optional spacing between images */
     }
 
-    .img-grid img, picture img{
+    .img-grid img{
         width:100%;
         height: auto;
     }
 
-    .img-grid picture img{
+    .img-grid img:nth-child(3) {
         grid-column: 1 / span 2; 
     }
 
