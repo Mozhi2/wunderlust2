@@ -836,7 +836,7 @@ footer a {
 
 }
 
-@media screen and (max-width: 768px){
+@media screen and (min-width: 768px){
     #plan div{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -846,7 +846,7 @@ footer a {
  
 }
 
-@media screen and (max-width: 1200px){
+@media screen and (min-width: 1200px){
 
  
     
@@ -863,6 +863,10 @@ footer a {
 
     #nums fieldset{
         display: flex;
+    }
+
+    #nums input{
+        width: 100%;
     }
 
     footer{
