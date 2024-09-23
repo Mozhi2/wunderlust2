@@ -861,9 +861,17 @@ footer {
         display: none;
     }
 
+
+        nav{
+            display: flex;
+        }
     nav a{
         display: flex;
-        width: 50%
+      
+    }
+
+    li, ul{
+        display: flex
     }
     #plan div {
         display: grid;
