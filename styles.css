@@ -857,7 +857,7 @@ footer a {
         grid-template-columns: repeat(2, 1fr);
         align-items: center;
     }
-    #about div{
+    #about div section{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 1rem;
@@ -865,10 +865,7 @@ footer a {
         align-items: center;
     }
 
-    #about div img{
-        justify-content: center;
-    }
-
+  
     #testimonials div{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
