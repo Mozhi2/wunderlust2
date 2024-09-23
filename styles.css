@@ -880,7 +880,9 @@ footer {
         display: flex;
 
     }
-
+    nav ul li{
+        justify-content: space-around;
+    }
     #img-grid {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -942,11 +944,7 @@ footer {
     
    
     
-    #intro p{
-        justify-content: end;
-    }
-
-    
+  
 
     #testimonials div {
         display: grid;
@@ -985,7 +983,11 @@ footer {
 
     nav ul {
         display: flex;
+        justify-content: space-between; /* Adjusts space evenly */
+        padding: 0;
     }
+    
+    
 
     nav li {
         display: flex;
@@ -993,12 +995,14 @@ footer {
 
     nav ul li {
         display: flex;
-
+        margin: 0 10px;  
     }
 
+    
+        
     nav a {
         display: flex;
-        justify-content: space-between;
+
     }
 
     h1 {
@@ -1047,9 +1051,7 @@ footer {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
     }
-    #intro p{
-        justify-content: start;
-    }
+   
 
     #plan div {
         display: flex;
