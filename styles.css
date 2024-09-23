@@ -592,6 +592,8 @@ select:focus+.focus {
 
 
 
+
+
 /* Additional styles for mobile screen */
 @media screen and (min-width: 480px) {
 
@@ -860,11 +862,11 @@ select:focus+.focus {
         padding: 20px;
         align-items: center;
     }
-  
-    footer a{
+    footer{
         display: flex;
-        justify-content: flex-end;
+        justify-content: space-evenly;
     }
+
 
 }
 
@@ -923,21 +925,23 @@ select:focus+.focus {
         width: 50;
 
     }
- footer{
-    display: flex;
- }
-
-
-footer a{
-    display: flex;
-    justify-content: flex-end;
-}
-
+    
    
+    
+
+    footer p {
+    display: flex;
+     justify-content: flex-start;
+
+
+    }
+
+    footer a {
+        display: flex;
+       
+        justify-content: flex-end;
+    }
 }
-
-   
-
 
 
 /* ----- BODY STYLES ----- */
