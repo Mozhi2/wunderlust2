@@ -573,7 +573,7 @@ select:focus+.focus {
 
 }
 
-#testimonials div section{
+#testimonials div{
     display: flex;
     justify-content: space-between;
 }
@@ -881,6 +881,11 @@ footer a {
 }
 
 @media screen and (min-width: 1200px){
+
+    #plan div{
+        display: flex;
+        justify-content: space-around;
+    }
 
     #about div{
         display: flex;
