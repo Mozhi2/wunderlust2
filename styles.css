@@ -590,23 +590,6 @@ select:focus+.focus {
 }
 
 
-footer {
-    display: flex;
-   
-    padding: 20px;
-}
-
-
-footer p{
-    display: flex;
-    justify-content: flex-start;
-}
-footer a {
-    display: flex;
-   justify-content: flex-end;
-   max-width: 1000px;
-    margin: 10px;
-}
 
 
 
@@ -959,15 +942,14 @@ footer a {
     }
 
     footer p {
-        justify-content: left;
+        justify-content: flex-start;
 
 
     }
 
     footer a {
         display: flex;
-        max-width: 1000px;
-        margin: 10px;
+       
         justify-content: flex-end;
     }
 }
