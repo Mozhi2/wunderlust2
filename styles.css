@@ -853,57 +853,10 @@ footer a {
  
 
   
-    #names {
-        display: grid;
-      
-    }
-
-    form,
-    #mySubmit {
-        display: grid;
-        justify-content: center;
-        width: 100%;
-    }
-
-    #contact h3 {
-        text-align: center;
-        font-weight: bold;
-
-    }
-
-    #names label {
-        display: grid;
-        margin-top: 8px;
     
-        font-weight: bold;
-        font-size: 17px;
-    }
-
-
-    #nums legend {
-        font-weight: bold;
-    }
-
-    #nums,
-    #selects label {
-        font-weight: bold;
-        font-size: 17px;
-    }
-
-
-    .radio-label {
-        font-weight: normal;
-
-    }
-
-
-    input,
-    select {
+    
+    form{
         display: grid;
-        align-items: center;
-        margin-bottom: 10px;
-        align-items: center;
-
     }
 
 
