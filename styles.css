@@ -952,10 +952,12 @@ footer {
 
 @media screen and (min-width: 1200px) {
 
-    header {
-        display: flex;
+    header h1, p {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
        
     }
+
 
     nav ul{
         display: flex;
@@ -971,6 +973,7 @@ footer {
     }
     nav a{
         display: flex;
+        justify-content: space-between;
     }
 
     h1 {
