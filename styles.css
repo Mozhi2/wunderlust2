@@ -576,16 +576,16 @@ select:focus+.focus {
 
 
 
-#mySubmit:hover{
-  
-        background-color:#002ead;
-        transition: 0.7s;
-    }
+#mySubmit:hover {
+
+    background-color: #002ead;
+    transition: 0.7s;
+}
 
 
 #mySubmit:focus {
     outline-color: transparent;
-    outline-style:solid;
+    outline-style: solid;
     box-shadow: 0 0 0 4px var(--purple);
 }
 
@@ -848,13 +848,14 @@ footer a {
 
 }
 
-@media screen and (min-width: 768px){
-    #plan div{
+@media screen and (min-width: 768px) {
+    #plan div {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         align-items: center;
     }
-    #about div{
+
+    #about div {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 1rem;
@@ -862,10 +863,11 @@ footer a {
         align-items: center;
     }
 
-    #about div section img{
+    #about div section img {
         margin-right: 20px;
     }
-    #testimonials div{
+
+    #testimonials div {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 1rem;
@@ -875,82 +877,93 @@ footer a {
 
     footer{
         display: flex;
+    }
+
+    footer p{
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    footer a {
+        display: flex;
         justify-content: flex-end;
     }
 
- 
+
 }
 
-@media screen and (min-width: 1200px){
+@media screen and (min-width: 1200px) {
 
-    header{
+    header {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 0.5rem;
     }
 
-    h1{
+    h1 {
         align-items: center;
     }
-    #plan div{
+
+    #plan div {
         display: flex;
         justify-content: space-evenly;
     }
 
-    #about div{
+    #about div {
         display: flex;
         justify-content: space-evenly;
     }
 
 
-        
-    #names{
+
+    #names {
         display: grid;
     }
-    #names input{
+
+    #names input {
         width: 100%;
     }
-    #names label{
+
+    #names label {
         margin-right: 20px;
     }
 
-    #nums fieldset{
+    #nums fieldset {
         display: flex;
     }
 
-   
-     #nums fieldset input{
-        width: 100%;
-     }
 
-     #testimonials div{
+    #nums fieldset input {
+        width: 100%;
+    }
+
+    #testimonials div {
         display: flex;
         justify-content: space-evenly;
-     }
-    
-    #mySubmit{
-       
-       width: 50;
-        
-    }
-  
-    footer{
-        display: flex;
-        justify-content: flex-end;
-       
     }
 
-    footer p{
-        justify-content: left;
-       
-        
+    #mySubmit {
+
+        width: 50;
+
+    }
+
+    footer {
+        display: flex;
+
+    }
+
+    footer p {
+        justify-content: flex-start;
+
+
     }
 
     footer a {
-        justify-content: right;
-            max-width: 1000px;
-            margin: 10px;
-            justify-content: space-between;
+        display: flex;
+        max-width: 1000px;
+        margin: 10px;
+        justify-content: flex-end;
     }
 }
 
