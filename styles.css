@@ -869,7 +869,7 @@ select:focus+.focus {
 
     footer p{
         display: flex;
-        justify-content: left;
+        justify-content: flex-start;
     }
 
     footer a {
@@ -942,6 +942,7 @@ select:focus+.focus {
     }
 
     footer p {
+    display: flex;
         justify-content: flex-start;
 
 
