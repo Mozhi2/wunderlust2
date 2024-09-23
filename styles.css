@@ -591,7 +591,9 @@ select:focus+.focus {
 
 
 
-
+footer{
+    display: flex;
+}
 
 
 /* Additional styles for mobile screen */
@@ -864,9 +866,13 @@ select:focus+.focus {
     }
     footer{
         display: flex;
-        justify-content: space-evenly;
+       
     }
-
+    
+    footer a{
+        display: flex;
+        justify-content: flex-end;
+    }
 
 }
 
@@ -928,7 +934,12 @@ select:focus+.focus {
 
 footer{
     display: flex;
-    justify-content: space-evenly;
+   
+}
+
+footer a{
+    display: flex;
+    justify-content: flex-end;
 }
 
    
