@@ -858,6 +858,7 @@ footer a {
     #names {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+        column-gap: 0;
     }
 
     #names input {
@@ -873,7 +874,7 @@ footer a {
         width: 50%;
     }
 
-    #radio-input {
+    #radio-input, #radio-label{
         display: flex;
     }
 
