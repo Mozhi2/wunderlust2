@@ -866,6 +866,10 @@ footer a {
 
     }
 
+    #selects label #custom-select{
+        display: grid;
+    }
+
     #mySubmit {
         width: 50%;
     }
