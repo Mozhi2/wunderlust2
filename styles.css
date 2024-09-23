@@ -864,11 +864,7 @@ footer{
         padding: 20px;
         align-items: center;
     }
-    footer{
-        display: flex;
-       
-    }
-    
+  
     footer a{
         display: flex;
         justify-content: flex-end;
@@ -932,10 +928,7 @@ footer{
 
     }
 
-footer{
-    display: flex;
-   
-}
+
 
 footer a{
     display: flex;
