@@ -221,9 +221,6 @@ body {
 
 header {
     width: 100%;
-   
-    padding: 1rem 0;
-
 }
     
 
@@ -1023,7 +1020,7 @@ footer {
 
     #menu-toggle {
         display: flex;
-      
+        justify-content: flex-end;
 
     }
 
