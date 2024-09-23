@@ -260,7 +260,7 @@ nav li {
     list-style: none;
 }
 
-nav a:hover{
+nav a:hover {
     background-color: var(--orange);
 }
 
@@ -657,7 +657,7 @@ footer {
     }
 
     #intro p {
-       
+
         text-align: left;
         font-size: 1em;
     }
@@ -676,12 +676,13 @@ footer {
 
 
 
-    #img-grid{
+    #img-grid {
         display: grid;
         gap: 1rem;
         width: 100%;
-       
+
     }
+
     /*
     #intro>#img-grid picture {
         height: 100%;
@@ -863,39 +864,45 @@ footer {
 
 @media screen and (min-width: 768px) {
 
-    #menu-toggle label{
+    #menu-toggle label {
         display: none;
     }
-    #manu-toggle{
+
+    #manu-toggle {
         display: flex;
     }
 
-        nav{
-            display: flex;
-        }
-    nav a{
+    nav {
         display: flex;
-      
     }
 
-    li, ul{
+    nav a {
+        display: flex;
+
+    }
+
+    li,
+    ul {
         display: flex
     }
+
     #plan div {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         align-items: center;
     }
-    #intro{
+
+    #intro {
         display: grid;
         padding: 20px;
     }
 
-    article #intro #img-grid{
+    article #intro #img-grid {
         display: grid;
         grid-template-columns: 1fr 1fr 2fr;
-        
+
     }
+
     #about div {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -910,18 +917,20 @@ footer {
 
     .img-grid {
         display: grid;
-       
-        grid-template-rows: auto auto; /* Two rows */
-        gap: 10px; /* Optional spacing between images */
+
+        grid-template-rows: auto auto;
+        /* Two rows */
+        gap: 10px;
+        /* Optional spacing between images */
     }
 
-    .img-grid img{
-        width:100%;
+    .img-grid img {
+        width: 100%;
         height: auto;
     }
 
     .img-grid img:nth-child(3) {
-        grid-column: 1 / span 2; 
+        grid-column: 1 / span 2;
     }
 
     #testimonials div {
@@ -952,26 +961,27 @@ footer {
 
 @media screen and (min-width: 1200px) {
 
-    header h1, p {
+    header {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-       
+
     }
 
 
-    nav ul{
+    nav ul {
         display: flex;
     }
 
-      nav li{
+    nav li {
         display: flex;
     }
 
-    nav ul li{
+    nav ul li {
         display: flex;
-        
+
     }
-    nav a{
+
+    nav a {
         display: flex;
         justify-content: space-between;
     }
@@ -979,40 +989,49 @@ footer {
     h1 {
         align-items: center;
     }
-  
-
-        #menu-toggle label{
-            display: none;
-        }
-
-        #menu-toggle{
-            display: flex;
-            flex-wrap: wrap;
-        
-        }
-
-        #img-grid{display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Two columns */
-    grid-template-rows: auto auto; /* Two rows */
-    gap: 10px; /* Optional spacing between images */
-}
-
-#img-grid img {
-    width: 100%; /* Makes images responsive */
-    height: auto; /* Maintains aspect ratio */
-}
-
-/* Place the third image to span the entire row */
-#img-grid picture {
-    grid-column: 1 / span 2; /* Span across both columns */
-}
 
 
-    
-        #intro{
-            display: grid;
-        }
-        #plan div {
+    #menu-toggle label {
+        display: none;
+    }
+
+    #menu-toggle {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    #img-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        /* Two columns */
+        grid-template-rows: auto auto;
+        /* Two rows */
+        gap: 10px;
+        /* Optional spacing between images */
+        align-items: right;
+    }
+
+    #img-grid img {
+        width: 100%;
+        /* Makes images responsive */
+        height: auto;
+        /* Maintains aspect ratio */
+    }
+
+    /* Place the third image to span the entire row */
+    #img-grid picture {
+        grid-column: 1 / span 2;
+        /* Span across both columns */
+    }
+
+
+
+    #intro {
+        display: grid;
+    }
+
+    #plan div {
         display: flex;
         justify-content: space-evenly;
     }
