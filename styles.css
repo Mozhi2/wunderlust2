@@ -873,6 +873,8 @@ footer a {
 
     #names label {
         display: grid;
+        margin-top: 8px;
+    
         font-weight: bold;
         font-size: 17px;
     }
@@ -904,11 +906,7 @@ footer a {
 
     }
 
-    #nums label {
-        display: flex;
-        margin-top: 8px;
-    }
-}
+
 /*
     #names input {
         width: 100%;
