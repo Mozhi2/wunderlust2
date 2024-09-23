@@ -221,9 +221,6 @@ body {
 
 header {
     width: 100%;
-   
-    padding: 1rem 0;
-
 }
     
 
@@ -870,10 +867,11 @@ footer {
 
     #manu-toggle {
         display: flex;
+        justify-content: center;
     }
     nav ul {
         display: flex;
-        justify-content: space-between; 
+        
         padding: 0;
     }
     
@@ -903,7 +901,7 @@ footer {
         /* Two rows */
         gap: 10px;
         /* Optional spacing between images */
-        justify-content: end;
+        
         
     }
 
@@ -990,7 +988,7 @@ footer {
 
     nav ul {
         display: flex;
-        justify-content: space-between; 
+        
         padding: 0;
     }
     
@@ -1023,7 +1021,7 @@ footer {
 
     #menu-toggle {
         display: flex;
-        flex-wrap: wrap;
+        justify-content: flex-end;
 
     }
 
@@ -1035,7 +1033,7 @@ footer {
         /* Two rows */
         gap: 10px;
         /* Optional spacing between images */
-        justify-content: end;
+       
         
     }
 
