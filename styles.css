@@ -872,17 +872,31 @@ footer {
         display: flex;
     }
 
-    nav {
+    nav ul {
+        display: flex;
+        justify-content: space-between; /* Adjusts space evenly */
+        padding: 0;
+    }
+    
+    
+
+    nav li {
         display: flex;
     }
 
+    nav ul li {
+        display: flex;
+        margin: 0 10px;  
+    }
+
+    
+        
     nav a {
         display: flex;
 
     }
-    nav ul li{
-        justify-content: space-around;
-    }
+
+  
     #img-grid {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -1005,9 +1019,7 @@ footer {
 
     }
 
-    h1 {
-        align-items: center;
-    }
+  
 
 
     #menu-toggle label {
@@ -1016,7 +1028,7 @@ footer {
 
     #menu-toggle {
         display: flex;
-        flex-wrap: wrap;
+      
 
     }
 
