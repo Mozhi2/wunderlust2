@@ -881,13 +881,13 @@ footer a {
     }
 
    
-    #email, #phone input{
+     #nums fieldset input{
         width: 100%;
-    }
-
+     }
+    
     #mySubmit{
         justify-content: center;
-        margin: 20px;
+       width: 50;
         
     }
 
