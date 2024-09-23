@@ -283,9 +283,6 @@ h4 {
     font-weight: bold;
 }
 
-#img-grid{
-    display: grid;
-}
 
 
 /*
@@ -858,7 +855,7 @@ footer {
         grid-template-columns: repeat(2, 1fr);
         align-items: center;
     }
-    #intro h2, p{
+    #intro{
         display: grid;
         padding: 20px;
     }
@@ -934,6 +931,10 @@ footer {
         align-items: center;
     }
 
+
+        #intro{
+            display: grid;
+        }
     #plan div {
         display: flex;
         justify-content: space-evenly;
