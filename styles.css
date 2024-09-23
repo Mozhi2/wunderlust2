@@ -883,7 +883,7 @@ footer a {
 
     #about div{
         display: flex;
-        justify-content: center;
+        justify-content: space-evenly;
     }
     
 
