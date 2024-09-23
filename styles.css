@@ -221,7 +221,6 @@ body {
 
 header {
     width: 100%;
-
     display: flex;
     padding: 1rem 0;
 
@@ -945,9 +944,8 @@ footer {
 @media screen and (min-width: 1200px) {
 
     header {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-gap: 0.5rem;
+        display: flex;
+       
     }
 
     h1 {
@@ -961,7 +959,7 @@ footer {
 
         nav a{
             display: flex;
-            width: 50%
+        
         }
 
 
