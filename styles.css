@@ -857,19 +857,9 @@ footer a {
 
     #names{
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
     }
     #names input{
         width: 100%;
-    }
-
-    #nums{
-        display: flex;
-      
-    }
-
-    #mySubmit{
-        width: 50%;
     }
 
     footer{
