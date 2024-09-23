@@ -857,7 +857,7 @@ footer a {
         grid-template-columns: repeat(2, 1fr);
         align-items: center;
     }
-    #about div section{
+    #about{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 1rem;
