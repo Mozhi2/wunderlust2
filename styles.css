@@ -850,11 +850,7 @@ footer a {
 
 @media screen and (min-width: 1200px) {
 
-    #contact {
-        display: flex;
-    }
-
-
+  
     #names {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
