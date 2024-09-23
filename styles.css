@@ -822,11 +822,11 @@ select:focus+.focus {
     footer{
         display: flex;
         justify-content: space-evenly;
+        padding: 20px;
+        background-color: var(--light-gray);
+       
     }
 
-    footer p{
-        margin-bottom: -10px;
-    }
 /*
     footer {
         text-align: center;
