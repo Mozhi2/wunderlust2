@@ -870,10 +870,9 @@ footer a {
         width: 100%;
     }
 
- #mySubmit{
-    width: 50%;
- }
-
+    #mySubmit{
+        justify-content: center;
+    }
     footer{
         display: flex;
         flex-wrap: wrap;
