@@ -865,7 +865,7 @@ footer a {
         display: flex;
     }
 
-    #nums input{
+    #email, #phone input{
         width: 100%;
     }
 
