@@ -850,10 +850,8 @@ footer a {
 
 @media screen and (min-width: 1200px){
 
-    #contact{
-        display: grid;
-    }
-
+ 
+    
 
     #names{
         display: grid;
