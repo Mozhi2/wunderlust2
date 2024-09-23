@@ -852,7 +852,16 @@ footer {
         grid-template-columns: repeat(2, 1fr);
         align-items: center;
     }
+    #intro h2, p{
+        display: grid;
+        padding: 20px;
+    }
 
+    article > #intro > #img-gride{
+        display: grid;
+        grid-template-columns: 1fr 1fr 2fr;
+        
+    }
     #about div {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
