@@ -870,9 +870,9 @@ footer a {
         width: 100%;
     }
 
-    #phone input{
-        width: 100%;
-    }
+ #mySubmit{
+    width: 50%;
+ }
 
     footer{
         display: flex;
