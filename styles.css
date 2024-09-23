@@ -950,6 +950,10 @@ footer {
        
     }
 
+    nav li{
+        display: flex;
+    }
+
     h1 {
         align-items: center;
     }
