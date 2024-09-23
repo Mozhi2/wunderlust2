@@ -218,13 +218,14 @@ body {
 }
 
 /* Header styles */
-
+/*
 header {
     width: 100%;
     display: flex;
     padding: 1rem 0;
 
 }
+    */
 
 #logo {
     padding: 0;
@@ -237,10 +238,11 @@ a {
     color: var(--maroon);
 }
 */
+/*
 header p {
     margin-left: 20px;
 }
-
+*/
 
 nav a {
     text-decoration: none;
@@ -607,7 +609,9 @@ footer {
 
     header {
         background-image: linear-gradient(var(--teal), var(--white));
+        /*
         display: flex;
+        */
     }
 
     #logo a {
