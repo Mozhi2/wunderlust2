@@ -284,6 +284,7 @@ h4 {
 }
 
 
+
 /*
   
   #menu-toggle {
@@ -874,6 +875,22 @@ footer {
 
     #about div section img {
         margin-right: 20px;
+    }
+
+    .img-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* Two columns */
+        grid-template-rows: auto auto; /* Two rows */
+        gap: 10px; /* Optional spacing between images */
+    }
+
+    .img-grid img, picture img{
+        width:100%;
+        height: auto;
+    }
+
+    .img-grid picture img{
+        grid-column: 1 / span 2; 
     }
 
     #testimonials div {
