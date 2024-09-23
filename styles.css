@@ -603,6 +603,10 @@ footer {
     background-color: var(--light-gray);
 }
 
+footer a{
+    text-decoration: none;
+}
+
 
 /* Additional styles for mobile screen */
 @media screen and (min-width: 480px) {
@@ -874,7 +878,7 @@ footer {
 
     nav ul {
         display: flex;
-        justify-content: space-between; /* Adjusts space evenly */
+        justify-content: space-evenly;
         padding: 0;
     }
     
@@ -997,7 +1001,7 @@ footer {
 
     nav ul {
         display: flex;
-        justify-content: space-between; /* Adjusts space evenly */
+        justify-content: space-evenly;
         padding: 0;
     }
     
