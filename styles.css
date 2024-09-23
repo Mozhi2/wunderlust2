@@ -819,6 +819,15 @@ select:focus+.focus {
         font-size: 20px;
     }
 
+    footer{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    footer p{
+        margin-bottom: 10px;
+    }
+/*
     footer {
         text-align: center;
         padding: 20px;
@@ -833,7 +842,7 @@ select:focus+.focus {
         margin: 10px;
     }
 
-
+*/
 }
 
 @media screen and (min-width: 768px) {
