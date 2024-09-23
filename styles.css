@@ -859,7 +859,9 @@ footer {
     #menu-toggle label{
         display: none;
     }
-
+    #manu-toggle{
+        display: flex;
+    }
 
         nav{
             display: flex;
@@ -957,7 +959,7 @@ footer {
             display: none;
         }
 
-        nav a{
+        #menu-toggle{
             display: flex;
         
         }
