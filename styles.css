@@ -891,8 +891,20 @@ footer a {
         display: flex;
         justify-content: space-evenly;
     }
-    
 
+    #intro h2, p{
+        display: grid;
+        justify-content: left;
+    }
+    
+    #img-grid{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        flex-grow: 1;
+    }
+
+        
     #names{
         display: grid;
     }
@@ -914,7 +926,7 @@ footer a {
 
      #testimonials div{
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
      }
     
     #mySubmit{
