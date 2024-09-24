@@ -757,14 +757,22 @@ footer {
         align-items: center;
         }
 
+        
+
+        #testimonials h3{
+            text-align: center;
+        }
+
         #testimonials p{
             text-align: center;
         }
 
 
-        #testimonials h3{
+        #testimonials q{
             text-align: center;
         }
+
+        
     #about img,
     h4,
     p {
@@ -956,6 +964,10 @@ footer {
         text-align: center;
     }
 
+    #testimonials q{
+        text-align: center;
+    }
+
     footer {
         display: flex;
         background-color: var(--light-gray);
@@ -1066,6 +1078,10 @@ footer {
         text-align: center;
     }
 
+
+    #testimonials q{
+        text-align: center;
+    }
     #intro{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
