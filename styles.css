@@ -1002,7 +1002,7 @@ footer {
 
     #selects {
         display: grid;
-        justify-content: center;
+       align-items: center;
         padding: 40px;
     }
 
@@ -1165,10 +1165,10 @@ footer {
     }
 
     fieldset {
-        display: flex;
+        display: grid;
     }
 
-
+    
 
     #names label {
         margin-right: 20px;
