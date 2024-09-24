@@ -984,17 +984,19 @@ footer {
         display: flex;
         }
 
-        fieldset{
+        #nums fieldset{
             display: flex;
         }
         
 
         #selects{
             display: grid;
+            align-items: center;
         }
 
         #mySubmit{
             width: 50%;
+            align-items: center;
         }
     footer {
         display: flex;
@@ -1145,7 +1147,7 @@ footer {
     #selects{
         display: grid;
     }
-    fieldset{
+    #nums fieldset{
         display: flex;
     }
     
