@@ -1074,7 +1074,14 @@ footer {
         align-items: center;
      }
      
-     
+     #testimonials div {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    #testimonials img {
+        justify-content: center;
+     }
      
 
 
