@@ -1101,7 +1101,9 @@ footer {
     #testimonials div section{
         justify-content: space-between;
     }
-
+     #plan a{
+        margin-right: -20px;
+     }
     #mySubmit {
 
         width: 50;
