@@ -991,32 +991,25 @@ footer {
         display: grid;
     }
 
-    #prefText,
-    #prefEmail,
-    #prefPhone {
-        display: flex;
-    }
+  
 
     fieldset {
         display: flex;
     }
 
-    #email {
-        display: grid;
-    }
-
-    #phone {
-        display: grid;
-    }
+  
+ 
 
     #selects {
         display: grid;
-        align-items: center;
+        justify-content: center;
+        padding: 40px;
     }
 
     #mySubmit {
         width: 50%;
         align-items: center;
+        padding: 40px;
     }
 
     footer {
