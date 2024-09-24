@@ -949,15 +949,13 @@ footer {
     #testimonials div {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        grid-gap: 1rem;
-        padding: 20px;
-        align-items: center;
-    }
+      
+        }
 
-    #testimonials div section{
-        justify-content: space-between;
-    }
-
+        #testimonials div section{
+            justify-content: space-between;
+        }
+    
     footer {
         display: flex;
         background-color: var(--light-gray);
