@@ -731,9 +731,9 @@ footer {
    
     #testimonials div {
         display: grid;
-        grid-template-columns: repeat(4, 1fr);
+        
         align-items: center;
-        gap: 1rem;
+       padding: 20px
         }
 
     #testimonials h3{
@@ -746,7 +746,11 @@ footer {
         
        }
 
-       #testimonials p, q{
+       #testimonials p{
+        align-items: center;
+       }
+
+       #testimonials q{
         align-items: center;
        }
 
