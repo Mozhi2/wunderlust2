@@ -742,11 +742,13 @@ footer {
         grid-template-columns: repeat(4, 1fr);
         gap: 1rem;
         padding: 20px;
-       
+       margin: 20px;
 
         }
 
-       
+       #testimonials div section{
+        margin: 20px;
+       }
 
 
     #about {
