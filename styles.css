@@ -1163,6 +1163,7 @@ footer {
     
     #contact {
         display: grid;
+        grid-template-columns: repeat(3, 1fr);
     }
 
     #nums {
@@ -1179,7 +1180,7 @@ footer {
     }
 
     fieldset {
-        display: grid;
+        display: flex;
     }
 
     
