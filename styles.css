@@ -732,7 +732,7 @@ footer {
     #testimonials div {
         display: grid;
         align-items: center;
-       
+        padding: 20px
         }
 
         #testimonials h3{
@@ -943,7 +943,7 @@ footer {
 
     #testimonials div {
         display: grid;
-       
+        padding: 20px;
         align-items: center;
     }
 
@@ -1074,8 +1074,13 @@ footer {
         align-items: center;
      }
      
-     
-     
+     #testimonials{
+        justify-content: space-between;
+     }
+    #testimonials div section{ 
+        justify-content: space-evenly;
+    }
+
 
 
     #names {
