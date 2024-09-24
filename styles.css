@@ -727,13 +727,11 @@ footer {
         border-radius: 8px;
     }
 
-
-  
     
    
     #testimonials div {
         display: grid;
-        grid-template-columns: repeat(4, 1fr);
+       
         align-items: center;
        
         }
@@ -948,6 +946,7 @@ footer {
     }
 
     
+
     #testimonials p{
         text-align: center;
     }
