@@ -972,6 +972,10 @@ footer {
         text-align: center;
     }
 
+
+    #nums{
+        display: flex;
+    }
     footer {
         display: flex;
         background-color: var(--light-gray);
