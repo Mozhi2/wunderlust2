@@ -973,14 +973,18 @@ footer {
     }
 
     #contact{
-        display: flex;
+        display: grid;
     }
         #names{
-            display: flex;
+            display: grid;
         }
 
         #nums{
         display: flex;
+        }
+
+        #selects{
+            display: grid;
         }
 
         #mySubmit{
@@ -1165,7 +1169,7 @@ footer {
  
 
     #mySubmit {
-
+        align-items: center;
         width: 50;
 
     }
