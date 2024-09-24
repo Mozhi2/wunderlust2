@@ -218,14 +218,14 @@ body {
 }
 
 /* Header styles */
-
+/*
 header {
     width: 100%;
-   
+    display: flex;
     padding: 1rem 0;
 
 }
-    
+    */
 
 #logo {
     padding: 0;
@@ -603,10 +603,6 @@ footer {
     background-color: var(--light-gray);
 }
 
-footer a{
-    text-decoration: none;
-}
-
 
 /* Additional styles for mobile screen */
 @media screen and (min-width: 480px) {
@@ -876,31 +872,15 @@ footer a{
         display: flex;
     }
 
-    nav ul {
-        display: flex;
-        justify-content: space-between; /* Adjusts space evenly */
-        padding: 0;
-    }
-    
-    
-
-    nav li {
+    nav {
         display: flex;
     }
 
-    nav ul li {
-        display: flex;
-        margin: 0 10px;  
-    }
-
-    
-        
     nav a {
         display: flex;
 
     }
 
-  
     #img-grid {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -962,7 +942,11 @@ footer a{
     
    
     
-  
+    #intro p{
+        justify-content: end;
+    }
+
+    
 
     #testimonials div {
         display: grid;
@@ -1001,11 +985,7 @@ footer a{
 
     nav ul {
         display: flex;
-        justify-content: space-between; /* Adjusts space evenly */
-        padding: 0;
     }
-    
-    
 
     nav li {
         display: flex;
@@ -1013,17 +993,17 @@ footer a{
 
     nav ul li {
         display: flex;
-        margin: 0 10px;  
+
     }
 
-    
-        
     nav a {
         display: flex;
-
+        justify-content: space-between;
     }
 
-  
+    h1 {
+        align-items: center;
+    }
 
 
     #menu-toggle label {
@@ -1032,7 +1012,7 @@ footer a{
 
     #menu-toggle {
         display: flex;
-      
+        flex-wrap: wrap;
 
     }
 
