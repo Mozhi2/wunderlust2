@@ -1159,24 +1159,27 @@ footer {
         justify-content: space-evenly;
     }
 
-   
-    
-    #contact {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-    }
+   #contact{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+   }
+
 
     #nums {
-        display: grid;
+        display: flex;
+            flex-direction: column;
         
     }
 
     #names {
-        display: grid;
+        display: flex;
+        flex-direction: column;
     }
 
     #selects {
-        display: grid;
+        display: flex;
+            flex-direction: column;
     }
 
     fieldset {
