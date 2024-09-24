@@ -1179,7 +1179,10 @@ footer {
         display: flex;
         
     }
-
+    fieldset{
+        display: flex;
+    }
+    
  
 
     #mySubmit {
