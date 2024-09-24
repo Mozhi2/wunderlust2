@@ -972,14 +972,16 @@ footer {
         text-align: center;
     }
 
-
+    #contact{
+        display: flex;
+    }
         #names{
             display: flex;
         }
 
-    #nums{
+        #nums{
         display: flex;
-    }
+        }
     footer {
         display: flex;
         background-color: var(--light-gray);
