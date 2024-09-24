@@ -740,10 +740,7 @@ footer {
     #testimonials {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
-        row-gap: 1rem;
-
-
-    }
+        }
 
     #testimonials h3 {
         text-align: center;
