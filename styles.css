@@ -744,10 +744,11 @@ footer {
     #about div {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-           
+
     }
 
-    #about h4, p {
+    #about h4,
+    p {
 
         text-align: center;
     }
@@ -780,7 +781,7 @@ footer {
     }
 
 
-    
+
 
     form,
     #mySubmit {
@@ -900,26 +901,26 @@ footer {
     #img-grid {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        /* Two columns */
+
         grid-template-rows: auto auto;
-        /* Two rows */
+
         gap: 10px;
-        /* Optional spacing between images */
-        justify-content: end;
+
+        justify-content: center;
 
     }
 
     #img-grid img {
         width: 100%;
-        /* Makes images responsive */
+
         height: auto;
-        /* Maintains aspect ratio */
+
     }
 
-    /* Place the third image to span the entire row */
+
     #img-grid picture {
         grid-column: 1 / span 2;
-        /* Span across both columns */
+
     }
 
     li,
@@ -950,7 +951,7 @@ footer {
         align-items: center;
     }
 
-  
+
 
 
 
@@ -984,10 +985,10 @@ footer {
 
     #names {
         display: grid;
-       
+
     }
 
-    #names input{
+    #names input {
         width: 100%;
     }
 
@@ -995,35 +996,36 @@ footer {
         display: grid;
     }
 
-    
 
-  
+
+
 
     fieldset {
         display: flex;
     }
 
-  
- 
+
+
 
     #selects {
         display: grid;
-       align-items: center;
-       
+        align-items: center;
+
     }
 
-    #travelTime{
+    #travelTime {
         width: 100%;
     }
 
 
-    #destination{
+    #destination {
         width: 100;
     }
+
     #mySubmit {
-       
+
         align-items: center;
-       
+
     }
 
     footer {
@@ -1159,17 +1161,18 @@ footer {
         justify-content: space-evenly;
     }
 
-   #contact{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-   }
+    #contact {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        align-items: center;
+    }
 
 
     #nums {
         display: flex;
-            flex-direction: column;
-        
+        flex-direction: column;
+
     }
 
     #names {
@@ -1179,14 +1182,14 @@ footer {
 
     #selects {
         display: flex;
-            flex-direction: column;
+        flex-direction: column;
     }
 
     fieldset {
         display: flex;
     }
 
-    
+
 
     #names label {
         margin-right: 20px;
