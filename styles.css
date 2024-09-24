@@ -982,11 +982,12 @@ footer {
     #contact {
         display: grid;
         align-items: center;
-        padding: 20px;
+       
     }
 
     #names {
         display: grid;
+        padding: 20px;
     }
 
     #nums {
@@ -997,7 +998,7 @@ footer {
         display: flex;
     }
 
-    #nums fieldset {
+    fieldset {
         display: flex;
     }
 
@@ -1162,6 +1163,7 @@ display: grid;
 
     #nums {
         display: grid;
+        padding: 20px;
     }
 
     #names {
@@ -1172,7 +1174,7 @@ display: grid;
         display: grid;
     }
 
-    #nums fieldset {
+    fieldset {
         display: flex;
     }
 
