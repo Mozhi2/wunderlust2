@@ -942,15 +942,16 @@ footer {
     
    
     
-  
+  /*
 
     #testimonials div {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        grid-gap: 1rem;
+        
         padding: 20px;
         align-items: center;
     }
+        */
 
     footer {
         display: flex;
@@ -1070,7 +1071,9 @@ footer {
         align-items: center;
      }
      
-
+     #testimonials{
+        justify-content: space-between;
+     }
     #testimonials div section{ 
         justify-content: space-evenly;
     }
