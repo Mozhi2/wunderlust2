@@ -882,7 +882,7 @@ footer a{
 
     nav ul {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
         padding: 0;
     }
     
@@ -1005,7 +1005,7 @@ footer a{
 
     nav ul {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
         padding: 0;
     }
     
@@ -1054,7 +1054,7 @@ footer a{
 
     #img-grid img {
         width: 100%;
-        /* Makes images responsive */
+        /* Makes images ceresponsive */
         height: auto;
         /* Maintains aspect ratio */
     }
