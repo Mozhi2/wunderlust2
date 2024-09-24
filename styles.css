@@ -945,7 +945,7 @@ footer {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
        
-        align-items: center;
+        
     }
 
  
@@ -1069,13 +1069,9 @@ footer {
         align-items: center;
      }
      
-     #testimonials{
-        justify-content: space-between;
-     }
-    #testimonials div section{ 
-        justify-content: space-evenly;
+    #testimonials div{
+        display: flex;
     }
-
 
 
     #names {
