@@ -937,16 +937,16 @@ footer {
     
    
     
-  /*
+  
 
     #testimonials div {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+       
         
         padding: 20px;
         align-items: center;
     }
-        */
+        
 
     footer {
         display: flex;
@@ -1098,12 +1098,10 @@ footer {
 
     #testimonials div {
         display: flex;
-        justify-content: space-evenly;
+        
     }
 
-    #testimonials div section img{
-        justify-content: space-between;
-    }
+ 
 
     #mySubmit {
 
