@@ -1107,10 +1107,11 @@ footer {
      }
      
   
-
-    #names {
+     form{
         display: grid;
-    }
+        grid-template-columns: repeat(3, 1fr);
+     }
+    
 
     #names input {
         width: 100%;
@@ -1120,6 +1121,10 @@ footer {
         margin-right: 20px;
     }
 
+/*
+    #names {
+        display: grid;
+    }
     #nums{
         display: grid;
     }
@@ -1128,7 +1133,7 @@ footer {
    #selects{
     display: grid;
    }
-
+*/
     #nums fieldset {
         display: flex;
     }
