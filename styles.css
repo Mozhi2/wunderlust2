@@ -739,18 +739,13 @@ footer {
         text-align: center;
     }
 
-       #testimonials img{
-        gap: 1rem;
-        margin: 20px;
-        
-       }
 
        #testimonials p{
         align-items: center;
        }
 
        #testimonials q{
-        align-items: center;
+    text-align: center;
        }
 
 
