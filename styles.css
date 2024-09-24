@@ -941,10 +941,16 @@ footer {
 
     #testimonials div {
         display: grid;
-       
-        
         padding: 20px;
         align-items: center;
+    }
+
+    #testimonials p{
+        text-align: center;
+    }
+
+    #testimonials q{
+        text-align: center;
     }
         
 
