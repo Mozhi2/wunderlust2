@@ -1097,7 +1097,11 @@ footer {
 
     #testimonials div {
         display: flex;
-        justify-content: space-evenly;
+        
+    }
+
+    #testimonials div section{
+        justify-content: space-between;
     }
 
     #mySubmit {
