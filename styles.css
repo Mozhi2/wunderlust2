@@ -742,6 +742,9 @@ footer {
         grid-template-columns: repeat(4, 1fr);
         }
 
+    #testimonials img{
+        align-items: center;
+    }
     #testimonials h3 {
         text-align: center;
 
