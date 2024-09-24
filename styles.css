@@ -757,6 +757,14 @@ footer {
         align-items: center;
         }
 
+        #testimonials p{
+            text-align: center;
+        }
+
+
+        #testimonials h3{
+            text-align: center;
+        }
     #about img,
     h4,
     p {
@@ -940,7 +948,13 @@ footer {
     }
 
  
-    
+    #testimonials h3{
+        text-align: center;
+    }
+
+    #testimonials p{
+        text-align: center;
+    }
 
     footer {
         display: flex;
@@ -1047,6 +1061,10 @@ footer {
         text-align: center;
     }
 
+
+    #testimonials p{
+        text-align: center;
+    }
 
     #intro{
         display: grid;
