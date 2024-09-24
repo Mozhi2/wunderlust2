@@ -1067,6 +1067,11 @@ footer {
         justify-content: space-evenly;
     }
 
+    #about div section img {
+        align-items: center;
+     }
+     
+
     #testimonials div section{ 
         justify-content: space-evenly;
     }
