@@ -868,10 +868,6 @@ footer a{
 
 @media screen and (min-width: 768px) {
 
-    header{
-        display: flex;
-    }
-
     #menu-toggle label {
         display: none;
     }
@@ -882,7 +878,7 @@ footer a{
 
     nav ul {
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-between; /* Adjusts space evenly */
         padding: 0;
     }
     
@@ -913,7 +909,7 @@ footer a{
         /* Two rows */
         gap: 10px;
         /* Optional spacing between images */
-        align-items: center;
+        justify-content: end;
         
     }
 
@@ -1005,7 +1001,7 @@ footer a{
 
     nav ul {
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-between; /* Adjusts space evenly */
         padding: 0;
     }
     
@@ -1048,13 +1044,13 @@ footer a{
         /* Two rows */
         gap: 10px;
         /* Optional spacing between images */
-        align-items: center;
+        justify-content: end;
         
     }
 
     #img-grid img {
         width: 100%;
-        /* Makes images ceresponsive */
+        /* Makes images responsive */
         height: auto;
         /* Maintains aspect ratio */
     }
