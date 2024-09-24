@@ -1140,7 +1140,9 @@ footer {
     #selects{
         display: grid;
     }
-
+    fieldset{
+        display: flex;
+    }
     
 
     #names input {
