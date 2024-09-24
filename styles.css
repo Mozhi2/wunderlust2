@@ -982,6 +982,10 @@ footer {
         #nums{
         display: flex;
         }
+
+        #mySubmit{
+            width: 50%;
+        }
     footer {
         display: flex;
         background-color: var(--light-gray);
