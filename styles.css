@@ -1043,6 +1043,10 @@ footer {
         justify-content: space-evenly;
     }
 
+    #testimonials h3{
+        text-align: center;
+    }
+
 
     #intro{
         display: grid;
