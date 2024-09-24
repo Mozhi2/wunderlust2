@@ -728,15 +728,12 @@ footer {
     }
 
 
-    #testimonials{
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-    }
+  
     
    
     #testimonials div {
         display: grid;
-       
+        grid-template-columns: repeat(4, 1fr);
         align-items: center;
        
         }
@@ -950,10 +947,7 @@ footer {
         align-items: center;
     }
 
-    #testimonials div{
-        display: grid;
-    }
-
+    
     #testimonials p{
         text-align: center;
     }
