@@ -973,6 +973,10 @@ footer {
     }
 
 
+        #names{
+            display: flex;
+        }
+
     #nums{
         display: flex;
     }
