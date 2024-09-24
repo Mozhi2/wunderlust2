@@ -742,9 +742,7 @@ footer {
         grid-template-columns: repeat(4, 1fr);
         }
 
-    #testimonials img{
-        align-items: center;
-    }
+
     #testimonials h3 {
         text-align: center;
 
@@ -1095,6 +1093,10 @@ footer {
     #testimonials div {
         display: flex;
         justify-content: space-evenly;
+    }
+
+    #testimonials div section img{
+        justify-content: space-between;
     }
 
     #mySubmit {
