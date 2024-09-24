@@ -732,15 +732,19 @@ footer {
     #testimonials {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
-        gap: 1rem;
-        padding: 20px;
-        margin: 20px;
+     
+     
 
         }
 
        #testimonials img{
-        
+        gap: 1rem;
         margin: 20px;
+        padding: 10px;
+       }
+
+       #testimonials p, q{
+        align-items: center;
        }
 
 
