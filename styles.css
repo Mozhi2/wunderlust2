@@ -731,7 +731,6 @@ footer {
    
     #testimonials div {
         display: grid;
-       
         align-items: center;
        
         }
@@ -939,13 +938,14 @@ footer {
     }
     
    
-    #testimonials{
+    
+  
+
+    #testimonials div {
         display: grid;
-         grid-template-columns: repeat (2, 1fr);
+       
         align-items: center;
     }
-
-    
 
     #testimonials p{
         text-align: center;
