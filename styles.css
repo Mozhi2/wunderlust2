@@ -948,14 +948,8 @@ footer {
         align-items: center;
     }
 
-    #testimonials p{
-        text-align: center;
-    }
-
-    #testimonials q{
-        text-align: center;
-    }
-        
+ 
+    
 
     footer {
         display: flex;
