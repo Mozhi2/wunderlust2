@@ -976,7 +976,7 @@ footer {
         text-align: center;
     }
 
-    #contact {
+    form {
         display: grid;
         align-items: center;
 
