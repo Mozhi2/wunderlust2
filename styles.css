@@ -983,6 +983,10 @@ footer {
 
     nav ul {
         display: flex;
+        justify-content: space-between; /* Adjusts space evenly */
+        padding: 0;
+    }
+    
     }
 
     nav li {
@@ -995,15 +999,11 @@ footer {
 
     }
 
-    nav ul {
-    display: flex;        /* Use flexbox layout */
-    justify-content: space-between; /* Adjusts space evenly */
-    padding: 0;
-}
-
-nav ul li {
-    margin: 0 10px;      /* Add horizontal margin */
-}
+    
+        
+    nav ul li {
+        margin: 0 10px;      /* Add horizontal margin */
+    }
 
     nav a {
         display: flex;
