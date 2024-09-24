@@ -952,9 +952,7 @@ footer {
       
         }
 
-        #testimonials div section{
-            justify-content: space-between;
-        }
+  
     
     footer {
         display: flex;
@@ -1102,9 +1100,7 @@ footer {
         
     }
 
-    #testimonials div section{
-        justify-content: space-between;
-    }
+   
      #plan a{
         margin-right: -20px;
      }
