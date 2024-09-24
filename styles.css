@@ -809,7 +809,9 @@ footer {
         font-weight: bold;
         font-size: 17px;
     }
-
+    #nums input{
+        width: 100%;
+    }
 
     .radio-label {
         font-weight: normal;
