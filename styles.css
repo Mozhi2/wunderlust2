@@ -954,6 +954,10 @@ footer {
         align-items: center;
     }
 
+    #testimonials div section{
+        justify-content: space-between;
+    }
+
     footer {
         display: flex;
         background-color: var(--light-gray);
