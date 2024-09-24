@@ -984,11 +984,11 @@ footer {
 
     #names {
         display: grid;
-        padding: 20px;
+        padding: 40px;
     }
 
     #nums {
-        display: flex;
+        display: grid;
     }
 
     #prefText,
