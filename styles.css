@@ -1168,10 +1168,7 @@ display: grid;
     }
 
 
-    #names input {
-        width: 50%;
-    }
-
+  
     #names label {
         margin-right: 20px;
     }
