@@ -984,7 +984,7 @@ footer {
 
     #names {
         display: grid;
-        padding: 40px;
+       
     }
 
     #nums {
@@ -1003,13 +1003,13 @@ footer {
     #selects {
         display: grid;
        align-items: center;
-        padding: 40px;
+       
     }
 
     #mySubmit {
         width: 50%;
         align-items: center;
-        padding: 40px;
+       
     }
 
     footer {
