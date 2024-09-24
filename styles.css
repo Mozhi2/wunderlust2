@@ -749,6 +749,15 @@ footer {
         padding: 20px;
     }
 
+    #about h4, p {
+
+        text-align: center;
+    }
+
+    #about div section img {
+        align-items: center;
+    }
+
 
     #testimonials div {
         display: grid;
@@ -773,13 +782,7 @@ footer {
     }
 
 
-    #about img,
-    h4,
-    p {
-
-        text-align: center;
-
-    }
+    
 
     form,
     #mySubmit {
@@ -799,7 +802,7 @@ footer {
         font-size: 17px;
     }
 
-    #names input{
+    #names input {
         width: 100%;
     }
 
@@ -951,6 +954,7 @@ footer {
         align-items: center;
     }
 
+    
     #about div section img {
         align-items: center;
     }
@@ -982,7 +986,7 @@ footer {
     #contact {
         display: grid;
         align-items: center;
-       
+
     }
 
     #names {
@@ -994,7 +998,9 @@ footer {
         display: flex;
     }
 
-    #prefText, #prefEmail, #prefPhone{
+    #prefText,
+    #prefEmail,
+    #prefPhone {
         display: flex;
     }
 
@@ -1003,7 +1009,7 @@ footer {
     }
 
     #email {
-display: grid;
+        display: grid;
     }
 
     #phone {
@@ -1179,7 +1185,7 @@ display: grid;
     }
 
 
-  
+
     #names label {
         margin-right: 20px;
     }
