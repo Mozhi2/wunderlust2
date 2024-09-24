@@ -1120,15 +1120,15 @@ footer {
         align-items: center;
      }
      
-  
-     form{
+    
+     #nums{
         display: grid;
-        grid-template-columns: repeat(5, 1fr);
-     }
+    }
+
     
 
     #names input {
-        width: 100%;
+        width: 50%;
     }
 
     #names label {
