@@ -984,6 +984,11 @@ footer {
         display: flex;
         }
 
+        fieldset{
+            display: flex;
+        }
+        
+
         #selects{
             display: grid;
         }
@@ -1166,9 +1171,7 @@ footer {
     display: grid;
    }
 */
-    #nums fieldset {
-        display: flex;
-    }
+
 
 
     #nums fieldset input {
@@ -1179,10 +1182,6 @@ footer {
         display: flex;
         
     }
-    fieldset{
-        display: flex;
-    }
-    
  
 
     #mySubmit {
