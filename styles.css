@@ -735,8 +735,16 @@ footer {
         padding: 20px
         }
 
-      
-   
+    #testimonials h3{
+        text-align: center;
+    }
+
+       #testimonials img{
+        gap: 1rem;
+        margin: 20px;
+        
+       }
+
        #testimonials p{
         align-items: center;
        }
@@ -936,7 +944,17 @@ footer {
     }
     
    
+    
+  /*
 
+    #testimonials div {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        
+        padding: 20px;
+        align-items: center;
+    }
+        */
 
     footer {
         display: flex;
@@ -1055,7 +1073,6 @@ footer {
     #about div section img {
         align-items: center;
      }
-     /*
      
      #testimonials{
         justify-content: space-between;
@@ -1063,7 +1080,7 @@ footer {
     #testimonials div section{ 
         justify-content: space-evenly;
     }
-*/
+
 
 
     #names {
@@ -1089,11 +1106,12 @@ footer {
 
     #testimonials div {
         display: flex;
-        
+        justify-content: space-evenly;
     }
 
-    
-    
+    #testimonials div section img{
+        justify-content: space-between;
+    }
 
     #mySubmit {
 
