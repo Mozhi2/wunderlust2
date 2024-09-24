@@ -799,6 +799,10 @@ footer {
         font-size: 17px;
     }
 
+    #names input{
+        width: 100%;
+    }
+
 
     #nums legend {
         font-weight: bold;
@@ -986,6 +990,10 @@ footer {
 
     #nums {
         display: flex;
+    }
+
+    #prefText, #prefEmail, #prefPhone{
+        display: inline-block;
     }
 
     #nums fieldset {
