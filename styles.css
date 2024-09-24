@@ -735,14 +735,16 @@ footer {
         padding: 20px
         }
 
-  
+        #testimonials h3{
+            align-items: center
+        }
 
        #testimonials p{
-        align-items: center;
+        text-align: center;
        }
 
        #testimonials q{
-    text-align: center;
+        text-align: center;
        }
 
 
