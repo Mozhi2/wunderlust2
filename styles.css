@@ -727,9 +727,9 @@ footer {
         border-radius: 8px;
     }
 
-    
-   
-    
+
+
+
 
 
     #about {
@@ -755,24 +755,24 @@ footer {
         align-items: center;
         padding: 20px;
         align-items: center;
-        }
-
-        
-
-        #testimonials h3{
-            text-align: center;
-        }
-
-        #testimonials p{
-            text-align: center;
-        }
+    }
 
 
-        #testimonials q{
-            text-align: center;
-        }
 
-        
+    #testimonials h3 {
+        text-align: center;
+    }
+
+    #testimonials p {
+        text-align: center;
+    }
+
+
+    #testimonials q {
+        text-align: center;
+    }
+
+
     #about img,
     h4,
     p {
@@ -809,11 +809,12 @@ footer {
         font-weight: bold;
         font-size: 17px;
     }
-    #nums input{
+
+    #nums input {
         width: 100%;
     }
 
-    
+
 
     .radio-label {
         font-weight: normal;
@@ -886,9 +887,11 @@ footer {
         display: flex;
 
     }
-    nav ul li{
+
+    nav ul li {
         justify-content: space-around;
     }
+
     #img-grid {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -898,7 +901,7 @@ footer {
         gap: 10px;
         /* Optional spacing between images */
         justify-content: end;
-        
+
     }
 
     #img-grid img {
@@ -945,59 +948,68 @@ footer {
     }
 
     #about div section img {
-       align-items: center;
+        align-items: center;
     }
-    
-   
-    
-  
+
+
+
+
 
     #testimonials div {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-       
-        
+
+
     }
 
- 
-    #testimonials h3{
+
+    #testimonials h3 {
         text-align: center;
     }
 
-    #testimonials p{
+    #testimonials p {
         text-align: center;
     }
 
-    #testimonials q{
+    #testimonials q {
         text-align: center;
     }
 
-    #contact{
+    #contact {
         display: grid;
         align-items: center;
     }
-        #names{
-            display: grid;
-        }
 
-        #nums{
+    #names {
+        display: grid;
+    }
+
+    #nums {
         display: flex;
-        }
+    }
 
-        #nums fieldset{
-            display: flex;
-        }
-        
+    #nums fieldset {
+        display: flex;
+    }
 
-        #selects{
-            display: grid;
-            align-items: center;
-        }
+    #email {
+display: grid;
+    }
 
-        #mySubmit{
-            width: 50%;
-            align-items: center;
-        }
+    #phone {
+        display: grid;
+    }
+
+    #selects {
+        display: grid;
+        align-items: center;
+    }
+
+    #mySubmit {
+        width: 50%;
+        align-items: center;
+    }
+
     footer {
         display: flex;
         background-color: var(--light-gray);
@@ -1027,11 +1039,12 @@ footer {
 
     nav ul {
         display: flex;
-        justify-content: space-between; /* Adjusts space evenly */
+        justify-content: space-between;
+        /* Adjusts space evenly */
         padding: 0;
     }
-    
-    
+
+
 
     nav li {
         display: flex;
@@ -1039,14 +1052,15 @@ footer {
 
     nav ul li {
         display: flex;
-        
+
 
     }
 
-    
-        
+
+
     nav ul li {
-        margin: 0 10px;      /* Add horizontal margin */
+        margin: 0 10px;
+        /* Add horizontal margin */
     }
 
     nav a {
@@ -1078,7 +1092,7 @@ footer {
         gap: 10px;
         /* Optional spacing between images */
         justify-content: end;
-        
+
     }
 
     #img-grid img {
@@ -1094,29 +1108,30 @@ footer {
         /* Span across both columns */
     }
 
-    #testimonials div{
+    #testimonials div {
         display: flex;
         justify-content: space-evenly;
     }
 
-    #testimonials h3{
+    #testimonials h3 {
         text-align: center;
     }
 
 
-    #testimonials p{
+    #testimonials p {
         text-align: center;
     }
 
 
-    #testimonials q{
+    #testimonials q {
         text-align: center;
     }
-    #intro{
+
+    #intro {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
     }
-   
+
 
     #plan div {
         display: flex;
@@ -1130,27 +1145,28 @@ footer {
 
     #about div section img {
         align-items: center;
-     }
-     
-     #contact{
-        display: grid;
-     }
-    
-     #nums{
+    }
+
+    #contact {
         display: grid;
     }
 
-    #names{
+    #nums {
         display: grid;
     }
 
-    #selects{
+    #names {
         display: grid;
     }
-    #nums fieldset{
+
+    #selects {
+        display: grid;
+    }
+
+    #nums fieldset {
         display: flex;
     }
-    
+
 
     #names input {
         width: 50%;
@@ -1160,7 +1176,7 @@ footer {
         margin-right: 20px;
     }
 
-/*
+    /*
     #names {
         display: grid;
     }
@@ -1182,9 +1198,9 @@ footer {
 
     #testimonials div {
         display: flex;
-        
+
     }
- 
+
 
     #mySubmit {
         align-items: center;
