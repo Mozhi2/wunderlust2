@@ -881,7 +881,7 @@ footer {
 
     }
 
-     #img-grid {
+    #img-grid {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         /* Two columns */
@@ -1056,6 +1056,9 @@ footer {
     #intro{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
+    }
+    #intro p{
+        justify-content: start;
     }
 
     #plan div {
