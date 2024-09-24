@@ -1137,6 +1137,10 @@ footer {
         display: grid;
     }
 
+    #selects{
+        display: grid;
+    }
+
     
 
     #names input {
