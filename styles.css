@@ -1062,16 +1062,16 @@ footer {
 
     #plan div {
         display: flex;
-        justify-content: space-evenly;
+       
     }
 
-    #plan div section a{
+    #plan div section a img{
         align-items: center;
     }
 
     #about div {
         display: flex;
-        justify-content: space-evenly;
+       
     }
 
 
