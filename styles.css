@@ -939,7 +939,7 @@ footer {
     #about div section img {
         margin-right: 20px;
     }
-    
+
     .img-grid {
         display: grid;
 
@@ -1056,9 +1056,6 @@ footer {
     #intro{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-    }
-    #intro p{
-        justify-content: start;
     }
 
     #plan div {
