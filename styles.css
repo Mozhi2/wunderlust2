@@ -987,9 +987,15 @@ footer {
        
     }
 
+    #names input{
+        width: 100%;
+    }
+
     #nums {
         display: grid;
     }
+
+    
 
   
 
@@ -1006,8 +1012,16 @@ footer {
        
     }
 
+    #travelTime{
+        width: 100%;
+    }
+
+
+    #destination{
+        width: 100;
+    }
     #mySubmit {
-        width: 50%;
+       
         align-items: center;
        
     }
@@ -1153,7 +1167,7 @@ footer {
 
     #nums {
         display: grid;
-        padding: 20px;
+        
     }
 
     #names {
