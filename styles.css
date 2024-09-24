@@ -950,11 +950,7 @@ footer {
         align-items: center;
     }
 
-    
-    #about div section img {
-        align-items: center;
-        margin: 20px;;
-    }
+  
 
 
 
@@ -1156,11 +1152,8 @@ footer {
         justify-content: space-evenly;
     }
 
-    #about div section img {
-        align-items: center;
-        
-    }
-
+   
+    
     #contact {
         display: grid;
     }
