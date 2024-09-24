@@ -938,17 +938,7 @@ footer {
     }
     
    
-    
-  /*
 
-    #testimonials div {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        
-        padding: 20px;
-        align-items: center;
-    }
-        */
 
     footer {
         display: flex;
@@ -1067,6 +1057,7 @@ footer {
     #about div section img {
         align-items: center;
      }
+     /*
      
      #testimonials{
         justify-content: space-between;
@@ -1074,7 +1065,7 @@ footer {
     #testimonials div section{ 
         justify-content: space-evenly;
     }
-
+*/
 
 
     #names {
@@ -1097,15 +1088,14 @@ footer {
     #nums fieldset input {
         width: 100%;
     }
-
+/*
     #testimonials div {
         display: flex;
         justify-content: space-evenly;
     }
-
-    #testimonials div section img{
-        justify-content: space-between;
-    }
+*/
+    
+    
 
     #mySubmit {
 
