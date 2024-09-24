@@ -982,6 +982,7 @@ footer {
     #contact {
         display: grid;
         align-items: center;
+        padding: 20px;
     }
 
     #names {
