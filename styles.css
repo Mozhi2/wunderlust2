@@ -733,9 +733,12 @@ footer {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         align-items: center;
-     
-
+        gap: 1rem;
         }
+
+    #testimonials h3{
+        text-align: center;
+    }
 
        #testimonials img{
         gap: 1rem;
