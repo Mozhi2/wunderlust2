@@ -1067,6 +1067,10 @@ footer {
         justify-content: space-evenly;
     }
 
+    #testimonials div{
+        justify-content: space-evenly;
+    }
+
 
 
     #names {
