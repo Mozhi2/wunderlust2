@@ -1140,9 +1140,7 @@ footer {
 
     }
 
-    #intro p{
-        text-align: left;
-    }
+    
 
     #img-grid {
         display: grid;
@@ -1159,7 +1157,7 @@ footer {
     #img-grid img {
         width: 100%;
         /* Makes images responsive */
-        height: auto;
+        height: 100%;
         /* Maintains aspect ratio */
     }
 
