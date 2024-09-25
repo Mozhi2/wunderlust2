@@ -748,7 +748,7 @@ footer {
 
 
     #about {
-
+        padding: 20px;
         background-color: var(--blue);
     }
 
@@ -772,11 +772,16 @@ footer {
     }
 
 
+    #testimonials{
+        padding: 20px;
+    }
+
     #testimonials div {
         display: grid;
+
+        grid-template-columns: repeat(4, 1fr);
         align-items: center;
-        padding: 20px;
-        margin: 20px;
+        
        
     }
 
