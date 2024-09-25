@@ -779,7 +779,9 @@ footer {
     #testimonials{
         text-align: center;
     }
-
+    #testimonials div{
+        padding: 20px;
+    }
     
 
     form,
@@ -1256,7 +1258,7 @@ footer {
 
     #testimonials p{
         text-align: center;
-        padding: 20px;
+       
     }
 
     #testimonials q{
