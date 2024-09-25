@@ -695,15 +695,15 @@ footer {
 
     #plan {
         background-color: var(--yellow);
-        justify-items: center ;
         
-   
+        text-align: center;
     }
 
 
     #plan div {
         display: grid;
         align-items: center;
+        background-color: var(--yellow);
         padding: 20px;
        
     }
@@ -721,7 +721,7 @@ footer {
         align-items: center;
         background-color: var(--teal);
         padding: 50px;
-        border-width: 4px;
+        border-width: 2px;
         border-style: solid;
         border-color: rgb(255, 255, 255);
         border-image: initial;
@@ -950,19 +950,19 @@ footer {
         display: flex
     }
 
-    
+    #plan div {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+    }
+
     #intro {
         display: grid;
         padding: 20px;
     }
 
     
-  #plan div {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        align-items: center;
-    }
-
+  
     
 
     #about div {
