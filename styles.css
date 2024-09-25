@@ -771,7 +771,7 @@ footer {
 
     #testimonial div{
         display: grid;
-        grid-template-columns: repeat(4, 1fr);
+        
         align-items: center;
     }
 
@@ -978,12 +978,12 @@ footer {
     #testimonials div {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-
+        align-items: center;
 
     }
 
 
-    #testimonials h3 {
+    #testimonials h4 {
         text-align: center;
     }
 
@@ -1164,7 +1164,7 @@ footer {
         justify-content: space-evenly;
     }
 
-    #testimonials h3 {
+    #testimonials h4 {
         text-align: center;
     }
 
