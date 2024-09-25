@@ -1245,11 +1245,20 @@ footer {
 
     #testimonials div {
         display: flex;
-       
+       padding: 20px;
         justify-content: center;
     }
 
+    #testimonials h4{
+        text-align: center;
+    }
 
+
+    #testimonials p{
+
+    }
+
+    #testimonials q
     #mySubmit {
         align-items: center;
         width: 50%;
