@@ -738,9 +738,10 @@ footer {
     }
 
 
-    #plan a img{
+    #plan img{
         display: grid;
-        justify-content: center;
+        align-items: center;
+        margin-right: 20px;
     }
 
 
