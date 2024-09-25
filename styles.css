@@ -679,8 +679,12 @@ footer {
     #img-grid {
         display: grid;
         gap: 1rem;
-        width: 100%;
+        
 
+    }
+
+    #img-grid img{
+        width: 100%;
     }
 
     #img-grid picture{
@@ -904,15 +908,6 @@ footer {
         justify-content: space-around;
     }
 
-
-    #intro h2{
-        text-align: left;
-
-    }
-
-    #intro p{
-        text-align: left;
-    }
     #img-grid {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
