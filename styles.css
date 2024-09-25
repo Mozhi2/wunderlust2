@@ -705,7 +705,7 @@ footer {
         display: grid;
         align-items: center;
         background-color: var(--yellow);
-        padding-bottom: 20px;
+       
     }
 
 
@@ -729,7 +729,7 @@ footer {
         height: 50%;
         align-items: center;
         background-color: var(--teal);
-        padding: 50px;
+        padding: 20px;
         border-width: 2px;
         border-style: solid;
         border-color: rgb(255, 255, 255);
@@ -770,7 +770,7 @@ footer {
     #testimonials div {
         display: grid;
         align-items: center;
-        padding: 20px;
+      
         align-items: center;
     }
 
