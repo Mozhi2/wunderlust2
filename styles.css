@@ -892,7 +892,8 @@ footer {
 @media screen and (min-width: 768px) {
 
     header{
-        text-align: left;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
     }
 
     #menu-toggle label {
@@ -1092,14 +1093,16 @@ footer {
 
     header P{
         font: sans-serif;
-        margin-bottom: 20px;
+      
     }
 
      h1 {
         text-align: left;
     }
 
-   
+    nav{
+        display: flex;
+    }
     nav ul {
         display: flex;
         justify-content: space-between;
