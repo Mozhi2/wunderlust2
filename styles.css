@@ -695,7 +695,7 @@ footer {
 
     #plan {
         background-color: var(--yellow);
-       
+        
         text-align: center;
     }
 
@@ -704,7 +704,7 @@ footer {
         display: grid;
         align-items: center;
         background-color: var(--yellow);
-        padding: 20px;
+        
        
     }
 
@@ -752,15 +752,12 @@ footer {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         padding: 20px;
+        align-items: center;
            
     }
 
-    #about h4, p {
 
-        text-align: center;
-    }
-
-
+    
 
     #testimonials div {
         display: grid;
