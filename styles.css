@@ -1090,14 +1090,9 @@ footer {
 
     }
 
-    header p{
+     h1 {
         text-align: left;
     }
-
-    h1 {
-        text-align: left;
-    }
-
 
 
     nav ul {
@@ -1133,9 +1128,8 @@ footer {
 
    
 
-    header{
-        display:grid;
-    }
+  
+    
 
 
     #menu-toggle label {
@@ -1146,6 +1140,11 @@ footer {
         display: flex;
         flex-wrap: wrap;
 
+    }
+
+    #intro{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
     }
 
     #img-grid {
