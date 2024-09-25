@@ -930,9 +930,7 @@ footer {
         justify-content: space-between;
     }
 
-    #intro p{
-        text-align: center;
-    }
+    
 
     #img-grid {
         display: grid;
@@ -976,15 +974,9 @@ footer {
         padding: 20px;
     }
 
-    #intro{
-        text-align: left;
-    }
-
-    article #intro #img-grid {
-        display: grid;
-        grid-template-columns: 1fr 1fr 2fr;
-
-    }
+    
+  
+    
 
     #about div {
         display: grid;
