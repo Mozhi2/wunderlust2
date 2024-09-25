@@ -729,7 +729,7 @@ footer {
         align-items: center;
         background-color: var(--teal);
         padding: 50px;
-        border-width: 2px;
+        border-width: 4px;
         border-style: solid;
         border-color: rgb(255, 255, 255);
         border-image: initial;
@@ -785,10 +785,7 @@ footer {
         padding: 20px;
     }
 
-    #testimonials q{
-        padding: 20px;
-    }
-    
+  
 
     form,
     #mySubmit {
@@ -1242,6 +1239,8 @@ footer {
         justify-content: center;
     }
 
+    
+
     #testimonials h4{
         text-align: center;
     }
@@ -1254,7 +1253,8 @@ footer {
 
     #testimonials q{
         text-align: center;
-        padding: 20px;
+        display: inline-block; /* or use 'block' if you want it on a new line */
+        width: 100px; /* set your desired width */
     }
 
 
