@@ -900,17 +900,39 @@ footer {
         display: flex;
     }
 
-    nav {
+    nav ul {
         display: flex;
+        justify-content: space-between;
+        /* Adjusts space evenly */
+        padding: 0;
+    }
+
+
+
+    nav li {
+        display: flex;
+    }
+
+    nav ul li {
+        display: flex;
+
+
+    }
+
+
+
+    nav ul li {
+        margin: 0 10px;
+        /* Add horizontal margin */
     }
 
     nav a {
         display: flex;
-
+        justify-content: space-between;
     }
 
-    nav ul li {
-        justify-content: space-around;
+    #intro p{
+        text-align: center;
     }
 
     #img-grid {
@@ -921,7 +943,7 @@ footer {
         /* Two rows */
         gap: 10px;
         /* Optional spacing between images */
-        justify-content: end;
+        justify-content: center;
 
     }
 
