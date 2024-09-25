@@ -908,13 +908,6 @@ footer {
         justify-content: space-around;
     }
 
-
-
-        #intro{
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-        }
-
     #img-grid {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
