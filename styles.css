@@ -679,8 +679,7 @@ footer {
     #img-grid {
         display: grid;
         gap: 1rem;
-        
-
+        width: 100%;
     }
 
     #img-grid img{
