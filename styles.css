@@ -1090,6 +1090,15 @@ footer {
 
     }
 
+    header p{
+        text-align: left;
+    }
+
+    h1 {
+        text-align: left;
+    }
+
+
 
     nav ul {
         display: flex;
@@ -1122,9 +1131,7 @@ footer {
         justify-content: space-between;
     }
 
-    h1 {
-        text-align: left;
-    }
+   
 
     header{
         display:grid;
