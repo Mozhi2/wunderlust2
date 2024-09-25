@@ -681,10 +681,12 @@ footer {
         gap: 1rem;
         width: 100%;
 
+
+       
     }
 
     #img-grid img{
-        width: 100%;
+            width: 100%;
     }
 
     #img-grid picture{
@@ -908,6 +910,8 @@ footer {
         justify-content: space-around;
     }
 
+
+
     #img-grid {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -1111,7 +1115,11 @@ footer {
     }
 
     
- 
+    #intro {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
 
     #img-grid {
         display: grid;
