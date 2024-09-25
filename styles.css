@@ -739,6 +739,11 @@ footer {
     }
 
 
+    #plan a img{
+        display: grid;
+        justify-content: center;
+    }
+
 
 
 
