@@ -748,7 +748,7 @@ footer {
 
 
     #about {
-       
+
         background-color: var(--blue);
     }
 
@@ -772,12 +772,10 @@ footer {
     }
 
 
-   
-
     #testimonials div {
         display: grid;
         align-items: center;
-        
+      
        
     }
 
