@@ -696,13 +696,14 @@ footer {
     #plan {
         background-color: var(--yellow);
         align-items: center;
+      
     }
 
 
     #plan div {
         display: grid;
         align-items: center;
-        background-color: var(--yellow);
+        padding: 20px;
        
     }
 
