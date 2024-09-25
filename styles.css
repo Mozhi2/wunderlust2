@@ -748,7 +748,7 @@ footer {
 
 
     #about {
-
+        padding: 20px;
         background-color: var(--blue);
     }
 
@@ -759,7 +759,7 @@ footer {
     #about div {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        padding: 20px;
+        
            
     }
 
@@ -768,9 +768,6 @@ footer {
         text-align: center;
     }
 
-    #about div section img {
-        align-items: center;
-    }
 
 
     #testimonials div {
