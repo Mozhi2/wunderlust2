@@ -1164,6 +1164,11 @@ footer {
         justify-content: space-evenly;
     }
 
+    #plan a{
+        display: flex;
+        margin: 20px;
+    }
+
     #about div {
         display: flex;
         justify-content: space-evenly;
