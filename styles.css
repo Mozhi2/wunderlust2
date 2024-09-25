@@ -689,11 +689,7 @@ footer {
 
     }
 
-     #img-grid picture {
-        grid-column: 1 / span 2;
-
-    }
-
+    
 
     #plan {
         background-color: var(--yellow);
