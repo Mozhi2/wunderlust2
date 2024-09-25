@@ -1171,6 +1171,10 @@ footer {
         justify-content: space-evenly;
     }
 
+    #testimonials h3{
+        text-align: center;
+    }
+
     #testimonials h4 {
         text-align: center;
     }
