@@ -775,8 +775,8 @@ footer {
     #testimonials div {
         display: grid;
         align-items: center;
-      
-        align-items: center;
+        padding: 20px;
+       
     }
 
 
