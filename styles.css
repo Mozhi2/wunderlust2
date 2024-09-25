@@ -695,8 +695,7 @@ footer {
 
     #plan {
         background-color: var(--yellow);
-        
-        text-align: center;
+   
     }
 
 
@@ -704,7 +703,7 @@ footer {
         display: grid;
         align-items: center;
         background-color: var(--yellow);
-        
+        padding: 20px;
        
     }
 
@@ -726,14 +725,10 @@ footer {
         border-color: rgb(255, 255, 255);
         border-image: initial;
         border-radius: 15px;
-       
+        margin-right: 20px;
     }
 
 
-    #plan a img{
-        display: grid;
-        justify-content: center;
-    }
 
 
 
