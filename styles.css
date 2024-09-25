@@ -755,29 +755,7 @@ footer {
 
 
 
-/*  Use absolute positioning to place the menu off-screen  */
 
-
-.active {
-    position: absolute;
-    width: 300px;
-    margin: -100px 0 0 -50px;
-    padding: 50px;
-    padding-top: 125px;
-    background: #ededed;
-    list-style-type: none;
-    /* Hide the menu off-screen to the left */
-
-    left: -100%;
-    -webkit-transition: left 0.3s ease;
-    -o-transition: left 0.3s ease;
-    transition: left 0.3s ease;
-}
-
-.active li {
-    padding: 10px 0;
-    font-size: 22px;
-}
 
 
 
