@@ -982,7 +982,7 @@ footer {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         align-items: center;
-
+        padding: 20px;
     }
 
 
@@ -1244,7 +1244,8 @@ footer {
 
     #testimonials div {
         display: flex;
-
+        flex-wrap: wrap;
+        padding: 20px;
     }
 
 
