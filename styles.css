@@ -695,7 +695,7 @@ footer {
 
     #plan {
         background-color: var(--yellow);
-        
+       
         text-align: center;
     }
 
@@ -726,10 +726,14 @@ footer {
         border-color: rgb(255, 255, 255);
         border-image: initial;
         border-radius: 15px;
-        margin-right: 20px;
+       
     }
 
 
+    #plan a img{
+        display: grid;
+        justify-content: center;
+    }
 
 
 
@@ -748,12 +752,15 @@ footer {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         padding: 20px;
-        align-items: center;
            
     }
 
+    #about h4, p {
 
-    
+        text-align: center;
+    }
+
+
 
     #testimonials div {
         display: grid;
@@ -969,7 +976,6 @@ footer {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         align-items: center;
-        padding: 20px;
     }
 
   
