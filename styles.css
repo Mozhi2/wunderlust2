@@ -1166,7 +1166,7 @@ footer {
 
     #plan a{
         display: flex;
-        margin: 20px;
+        justify-content: space-evenly;
     }
 
     #about div {
