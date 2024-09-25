@@ -263,12 +263,12 @@ nav li {
 nav a:hover {
     background-color: var(--orange);
 }
-
+/*
 h1 {
     font-size: 2em;
     text-align: left;
     margin-left: 20px;
-}
+}*/
 
 h1,
 h2,
@@ -1123,7 +1123,7 @@ footer {
     }
 
     h1 {
-        align-items: center;
+        text-align: left;
     }
 
 
