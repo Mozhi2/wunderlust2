@@ -1126,8 +1126,8 @@ footer {
         text-align: left;
     }
 
-    header h1, p{
-        display: grid;
+    header{
+        display:grid;
     }
 
 
