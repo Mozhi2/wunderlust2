@@ -1166,12 +1166,7 @@ footer {
         /* Span across both columns */
     }
 
-    #testimonials div {
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-   
+    
 
     #intro {
         display: grid;
