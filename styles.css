@@ -758,14 +758,18 @@ footer {
 
 
 
-    #about h4, p {
+    #about h4{
 
+        text-align: center;
+    }
+
+    #about p{
         text-align: center;
     }
 
   
 
-    #testimonial div section{
+    #testimonial div{
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         align-items: center;
