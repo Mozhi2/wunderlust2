@@ -1255,7 +1255,8 @@ footer {
 
 
     #testimonials p{
-
+        text-align: center;
+        padding: 20px;
     }
 
     #testimonials q
