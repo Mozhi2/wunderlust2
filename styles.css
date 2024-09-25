@@ -683,6 +683,10 @@ footer {
 
     }
 
+    #img-grid img{
+        width: 100%;
+    }
+
     #img-grid picture{
         display: grid;
         gap: 1rem;
@@ -905,6 +909,11 @@ footer {
     }
 
 
+
+        #intro h2, p{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
 
     #img-grid {
         display: grid;
