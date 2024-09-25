@@ -1230,21 +1230,6 @@ footer {
         margin-right: 20px;
     }
 
-    /*
-    #names {
-        display: grid;
-    }
-    #nums{
-        display: grid;
-    }
-
-
-   #selects{
-    display: grid;
-   }
-*/
-
-
 
     #nums fieldset input {
         width: 100%;
@@ -1268,6 +1253,7 @@ footer {
 
     #testimonials q{
         text-align: center;
+        padding: 20px;
     }
 
 
