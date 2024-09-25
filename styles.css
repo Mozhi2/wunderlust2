@@ -1187,7 +1187,7 @@ footer {
 
 
     #destination{
-        width: 100;
+        width: 100%;
     }
     #mySubmit {
        
@@ -1399,7 +1399,7 @@ footer {
 
     #mySubmit {
         align-items: center;
-        width: 50;
+        width: 50%;
 
     }
 
