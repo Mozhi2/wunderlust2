@@ -695,21 +695,15 @@ footer {
 
     #plan {
         background-color: var(--yellow);
-       
+        margin-top: 20px;
         text-align: center;
     }
 
 
-
-    #plan{
-        display: grid;
-    }
     #plan div {
         display: grid;
-        grid-template-columns: repeat(4, 1fr);
         align-items: center;
         background-color: var(--yellow);
-        padding: 20px;
        
     }
 
@@ -717,7 +711,16 @@ footer {
 
 
 
-    
+    #plan h3 {
+        text-align: center;
+
+    }
+
+    #plan h4 {
+        display: grid;
+        text-align: center;
+
+    }
 
     #plan img {
         display: grid;
@@ -730,8 +733,8 @@ footer {
         border-style: solid;
         border-color: rgb(255, 255, 255);
         border-image: initial;
-        border-radius: 15px;
-       
+        border-radius: 8px;
+        margin: 40px;
     }
 
 
@@ -756,7 +759,7 @@ footer {
     #about div {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        padding: 20px;
+        
            
     }
 
@@ -765,6 +768,9 @@ footer {
         text-align: center;
     }
 
+    #about div section img {
+        align-items: center;
+    }
 
 
     #testimonials div {
