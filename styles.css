@@ -712,16 +712,7 @@ footer {
 
 
 
-    #plan h3 {
-        text-align: center;
-
-    }
-
-    #plan h4 {
-        display: grid;
-        text-align: center;
-
-    }
+    
 
     #plan img {
         display: grid;
@@ -734,7 +725,7 @@ footer {
         border-style: solid;
         border-color: rgb(255, 255, 255);
         border-image: initial;
-        border-radius: 8px;
+        border-radius: 15px;
        
     }
 
