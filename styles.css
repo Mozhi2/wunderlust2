@@ -950,19 +950,20 @@ footer {
         display: flex
     }
 
-    #plan div {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        align-items: center;
-    }
-
+    
     #intro {
         display: grid;
         padding: 20px;
     }
 
     
-  
+    #plan{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        padding: 20px;
+    }
+
     
 
     #about div {
