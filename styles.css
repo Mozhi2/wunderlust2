@@ -726,8 +726,8 @@ footer {
 
     #plan img {
         display: grid;
-        width: 100%;
-        height: 100%;
+        width: 70%;
+        height: 70%;
         align-items: center;
         background-color: var(--teal);
         padding: 50px;
@@ -736,7 +736,7 @@ footer {
         border-color: rgb(255, 255, 255);
         border-image: initial;
         border-radius: 8px;
-        margin: 20px;
+   
     }
 
 
