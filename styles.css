@@ -628,13 +628,7 @@ footer {
         margin-left: 20px;
     }
 
-    header p {
-        margin: 20px;
-        text-align: left;
-        font-size: 1.25em;
-
-    }
-
+    
 
     nav ul {
         display: block;
@@ -730,13 +724,13 @@ footer {
         height: 50%;
         align-items: center;
         background-color: var(--teal);
-        padding: 50px;
+        padding: 20px;
         border-width: 2px;
         border-style: solid;
         border-color: rgb(255, 255, 255);
         border-image: initial;
         border-radius: 8px;
-   
+        margin: 20px;
     }
 
 
