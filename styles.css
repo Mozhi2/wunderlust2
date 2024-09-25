@@ -1168,26 +1168,10 @@ footer {
 
     #testimonials div {
         display: flex;
-        justify-content: space-evenly;
+        flex-wrap: wrap;
     }
 
-    #testimonials h3{
-        text-align: center;
-    }
-
-    #testimonials h4 {
-        text-align: center;
-    }
-
-
-    #testimonials p {
-        text-align: center;
-    }
-
-
-    #testimonials q {
-        text-align: center;
-    }
+   
 
     #intro {
         display: grid;
