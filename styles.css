@@ -1142,9 +1142,8 @@ footer {
 
     }
 
-    #intro{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
+    #intro p{
+        text-align: left;
     }
 
     #img-grid {
