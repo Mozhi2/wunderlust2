@@ -1091,7 +1091,8 @@ footer {
     }
 
     header P{
-        font-family: var(--fonts);
+        font: sans-serif;
+        margin-bottom: 20px;
     }
 
      h1 {
