@@ -887,6 +887,10 @@ footer {
 
 @media screen and (min-width: 768px) {
 
+    header{
+        text-align: left;
+    }
+
     #menu-toggle label {
         display: none;
     }
@@ -947,6 +951,7 @@ footer {
         /* Makes images responsive */
         height: auto;
         /* Maintains aspect ratio */
+        align-items: center;
     }
 
     /* Place the third image to span the entire row */
@@ -969,6 +974,10 @@ footer {
     #intro {
         display: grid;
         padding: 20px;
+    }
+
+    #intro{
+        text-align: left;
     }
 
     article #intro #img-grid {
