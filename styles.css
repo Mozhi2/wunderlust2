@@ -1126,6 +1126,10 @@ footer {
         text-align: left;
     }
 
+    header h1, p{
+        display: grid;
+    }
+
 
     #menu-toggle label {
         display: none;
