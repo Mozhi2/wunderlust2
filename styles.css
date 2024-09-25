@@ -776,13 +776,17 @@ footer {
     #testimonials div {
         display: grid;
         align-items: center;
-      
+       padding: 20px;
        
     }
 
 
 
     #testimonials h3 {
+        text-align: center;
+    }
+
+    #testimonials h4{
         text-align: center;
     }
 
