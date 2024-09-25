@@ -1090,11 +1090,15 @@ footer {
 
     }
 
+    header P{
+        font-family: var(--fonts);
+    }
+
      h1 {
         text-align: left;
     }
 
-
+   
     nav ul {
         display: flex;
         justify-content: space-between;
@@ -1208,7 +1212,6 @@ footer {
 
    #contact{
     display: grid;
-    
     gap: 20px;
     align-items: center;
    }
