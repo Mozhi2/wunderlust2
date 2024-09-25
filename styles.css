@@ -974,13 +974,11 @@ footer {
     #intro {
         display: grid;
         padding: 20px;
+        align-items: center;
     }
 
-    article #intro #img-grid {
-        display: grid;
-        grid-template-columns: 1fr 1fr 2fr;
-
-    }
+ 
+    
 
     #about div {
         display: grid;
