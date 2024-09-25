@@ -779,7 +779,12 @@ footer {
     #testimonials{
         text-align: center;
     }
+
     #testimonials div{
+        padding: 20px;
+    }
+
+    #testimonials q{
         padding: 20px;
     }
     
@@ -1264,6 +1269,8 @@ footer {
     #testimonials q{
         text-align: center;
     }
+
+
     #mySubmit {
         align-items: center;
         width: 50%;
