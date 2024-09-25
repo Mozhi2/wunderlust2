@@ -614,7 +614,7 @@ footer {
         */
 
         display: grid;
-        grid-template-columns: repeat (2, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
 
     #logo a {
@@ -856,8 +856,8 @@ footer {
 
     #plan img {
         display: grid;
-        width: 50%;
-        height: 50%;
+        width: 100%;
+        height: 100%;
         align-items: center;
         background-color: var(--teal);
         padding: 50px;
