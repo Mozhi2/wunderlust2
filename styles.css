@@ -683,7 +683,13 @@ footer {
 
     }
 
-    #img-grid picture {
+    #img-grid img {
+        width: 100%;
+        height: auto;
+
+    }
+
+     #img-grid picture {
         grid-column: 1 / span 2;
 
     }
@@ -937,7 +943,6 @@ footer {
 
     #intro {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
         padding: 20px;
     }
 
