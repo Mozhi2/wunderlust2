@@ -769,10 +769,10 @@ footer {
 
   
 
-    #testimonial div{
+    #testimonial{
         display: grid;
-        
         align-items: center;
+        padding: 20px;
     }
 
 
