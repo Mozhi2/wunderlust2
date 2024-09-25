@@ -910,7 +910,7 @@ footer {
 
 
 
-        #intro h2, p{
+        #intro{
             display: grid;
             grid-template-columns: repeat(2, 1fr);
         }
