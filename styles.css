@@ -1108,6 +1108,13 @@ footer {
 
     }
 
+    
+    #intro {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+
     #img-grid {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -1150,11 +1157,6 @@ footer {
 
     #testimonials q {
         text-align: center;
-    }
-
-    #intro {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
     }
 
 
