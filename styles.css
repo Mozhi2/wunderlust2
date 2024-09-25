@@ -742,12 +742,7 @@ footer {
         align-items: center;
     }
     #about {
-
         background-color: var(--blue);
-    }
-
-    #about h3 {
-        text-align: center;
     }
 
     #about div {
@@ -757,16 +752,20 @@ footer {
            
     }
 
+    #about h3 {
+        text-align: center;
+    }
+
+
+
     #about h4, p {
 
         text-align: center;
     }
 
-    #about div section img {
-        align-items: center;
-    }
+  
 
-    #testimonial{
+    #testimonial div section{
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         align-items: center;
