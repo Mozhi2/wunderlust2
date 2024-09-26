@@ -839,8 +839,8 @@ footer {
     #testimonials section{
         padding: 20px;
     }
-    #testimonials div q{
-        padding: 50px;
+    #testimonials q{
+        width: 50%;
     }
   
 
