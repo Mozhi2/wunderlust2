@@ -702,6 +702,23 @@ footer {
     align-items: center;
     padding: 20px;
 }
+
+
+
+#plan h3 {
+    text-align: center;
+
+}
+
+#plan h4 {
+ 
+    text-align: center;
+
+}
+
+#plan img{
+    align-items: center;
+}
 /*
 
     #plan {
