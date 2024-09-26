@@ -652,7 +652,7 @@ footer {
 
     #intro h2 {
         font-size: 1.5em;
-        padding: 20px;
+        
       
     }
 
@@ -756,7 +756,8 @@ footer {
         */
 
     #plan img {
-        
+        width: 100%;
+        height: auto;
         background-color: var(--teal);
         padding: 20px;
         border-width: 4px;
@@ -764,7 +765,7 @@ footer {
         border-color: rgb(255, 255, 255);
         border-image: initial;
         border-radius: 8px;
-       
+        overflow: hidden;
     }
 
     #about{
@@ -1016,6 +1017,7 @@ footer {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         align-items: center;
+        gap: 10px;
     }
 
     #intro {
@@ -1203,8 +1205,7 @@ footer {
 
     #intro {
         display: grid;
-        grid-template-rows: repeat(2, 1fr);
-        grid-template-columns: auto auto;
+        grid-template-columns: repeat(2, 1fr);
         gap: 10px;
     }
 
