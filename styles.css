@@ -694,7 +694,9 @@ footer {
     }
 
        
-
+#plan{
+    background-color: var(--yellow); 
+}
     
 #plan div{
     background-color: var(--yellow);
