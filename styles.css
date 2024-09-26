@@ -646,21 +646,27 @@ footer {
 
     #intro{
         padding: 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr; /* Two equal columns */
+        gap: 20px; /* Space between the columns */
+
     }
+
 
 
 
     #intro h2 {
         font-size: 1.5em;
-        margin-left: 20px;
-        text-align: left;
+      
     }
 
     #intro p {
 
-        text-align: left;
+      
         font-size: 1em;
     }
+
+    
 
     h3 {
         font-size: 1.25em;
