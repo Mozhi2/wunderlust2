@@ -747,12 +747,11 @@ footer {
 
 
   
-    #about {
+    #about div{
         background-color: var(--blue);
         display: grid;
         align-items: center;
-        padding: 20px;
-        
+             
     }
 
 
