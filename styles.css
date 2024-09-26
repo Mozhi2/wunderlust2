@@ -786,7 +786,10 @@ footer {
     #testimonials{
         text-align: center;
     }
-   
+    
+    #testimonials section{
+        padding: 20px;
+    }
 
   
 
