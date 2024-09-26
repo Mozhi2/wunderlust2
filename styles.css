@@ -747,6 +747,10 @@ footer {
         padding: 20px;
     }
 
+    #about div{
+        text-align: center;
+    }
+
     #about img{
         align-items: center;
     }
