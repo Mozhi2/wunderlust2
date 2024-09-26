@@ -749,15 +749,12 @@ footer {
   
     #about {
         background-color: var(--blue);
-    }
-
-    #about section {
         display: grid;
         align-items: center;
         padding: 20px;
         
-           
     }
+
 
     #about img{
         align-items: center;
