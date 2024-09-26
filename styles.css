@@ -747,7 +747,7 @@ footer {
 
 
   
-    #about div{
+    #about{
         background-color: var(--blue);
         display: grid;
         align-items: center;
