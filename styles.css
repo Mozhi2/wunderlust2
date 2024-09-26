@@ -740,17 +740,22 @@ footer {
 
     #about{
         background-color: var(--blue);
-        text-align: center;
+       
     }
     
     #about div{
         background-color: var(--blue);
         display: grid;
+        grid-template-columns: repeat(2, 1fr);
         align-items: center;
         padding: 20px;
     }
 
     #about div{
+        text-align: center;
+    }
+
+    #about h3{
         text-align: center;
     }
 
