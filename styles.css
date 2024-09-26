@@ -739,9 +739,7 @@ footer {
 
 
 
-    #plan div section{
-        align-items: center;
-    }
+  
     #about {
         background-color: var(--blue);
     }
@@ -785,9 +783,7 @@ footer {
         padding: 20px;
     }
 
-    #testimonials q{
-        width: 50px;
-    }
+   
 
   
 
