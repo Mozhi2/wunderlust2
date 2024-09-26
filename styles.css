@@ -708,7 +708,9 @@ footer {
     }
 
 
-
+    #plan div section a img{
+        align-items: center;
+    }
 
 
     #plan h3 {
@@ -735,6 +737,29 @@ footer {
         border-image: initial;
         border-radius: 8px;
        
+    }
+
+    #plan{
+        
+            position: relative; /* Set the container position to relative */
+            display: inline-block; /* Allow the container to fit the image */
+        }
+        
+        #plan img {
+            width: 100%; /* Make the image responsive */
+            height: auto; /* Maintain the aspect ratio */
+        }
+        
+        #plan h4 {
+            position: absolute; /* Position the heading absolutely within the container */
+            top: 50%; /* Center vertically */
+            left: 50%; /* Center horizontally */
+            transform: translate(-50%, -50%); /* Adjust positioning */
+            color: white; /* Change text color for visibility */
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* Add shadow for better contrast */
+            font-size: 2em; /* Adjust font size as needed */
+            text-align: center; /* Center text */
+        }
     }
 
 
