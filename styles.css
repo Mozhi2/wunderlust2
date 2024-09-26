@@ -755,7 +755,7 @@ footer {
         background-color: var(--blue);
     }
 
-    #about div {
+    #about{
         display: grid;
         align-items: center;
         padding: 20px;
