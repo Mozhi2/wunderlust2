@@ -754,10 +754,6 @@ footer {
         */
 
     #plan img {
-        display: grid;
-        width: 50%;
-        height: 50%;
-        align-items: center;
         background-color: var(--teal);
         padding: 50px;
         border-width: 4px;
