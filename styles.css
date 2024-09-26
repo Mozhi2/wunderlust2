@@ -644,14 +644,7 @@ footer {
         margin: 5px 0;
     }
 
-    #intro{
-        padding: 20px;
-        display: grid;
-        grid-template-columns: 1fr 1fr; /* Two equal columns */
-        gap: 20px; /* Space between the columns */
-
-    }
-
+ 
 
 
 
@@ -1237,7 +1230,7 @@ footer {
 
     #intro {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
 
 
