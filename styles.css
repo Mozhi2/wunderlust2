@@ -1199,7 +1199,19 @@ footer {
 
     }
 
-   
+    #intro {
+        display: grid;
+        grid-template-columns: repeat(1fr, 1fr);
+        padding: 20px;
+    }
+
+    #intro h2{
+        display: grid;
+    }
+
+    #intro p{
+        display: grid;
+    }
     
 
     #img-grid {
@@ -1229,10 +1241,7 @@ footer {
 
     
 
-    #intro {
-        display: grid;
-        grid-template-columns: repeat(1fr, 1fr);
-    }
+   
 
 
     #plan div {
