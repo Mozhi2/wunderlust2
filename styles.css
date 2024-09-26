@@ -757,6 +757,7 @@ footer {
 
     #about{
         display: grid;
+        grid-template-columns: repeat(4, 1fr);
         align-items: center;
         padding: 20px;
         
