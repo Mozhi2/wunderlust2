@@ -1203,20 +1203,12 @@ footer {
 
     }
 
-    #intro {
+    #intro :not(#img-grid) {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 10px;
+      
     }
 
-    #intro h2{
-        display: grid;
-    }
 
-    #intro p{
-        display: grid;
-    }
-    
 
     #img-grid {
         display: grid;
