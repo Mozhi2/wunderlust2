@@ -837,7 +837,7 @@ footer {
         padding: 20px;
     }
     #testimonials div q{
-        padding: 40px;
+        padding: 50px;
     }
   
 
@@ -1240,6 +1240,27 @@ footer {
     }
 
     
+    #testimonials div {
+        display: flex;
+       padding: 20px;
+        justify-content: center;
+    }
+
+    
+
+    #testimonials h4{
+        text-align: center;
+    }
+
+
+    #testimonials p{
+        text-align: center;
+       
+    }
+
+    #testimonials q{
+        text-align: center;
+       }
 
    
 
@@ -1297,28 +1318,7 @@ footer {
         width: 100%;
     }
 
-    #testimonials div {
-        display: flex;
-       padding: 20px;
-        justify-content: center;
-    }
-
-    
-
-    #testimonials h4{
-        text-align: center;
-    }
-
-
-    #testimonials p{
-        text-align: center;
-       
-    }
-
-    #testimonials q{
-        text-align: center;
-       }
-
+   
 
     #mySubmit {
         align-items: center;
