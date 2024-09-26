@@ -645,6 +645,7 @@ footer {
     }
 
     #intro{
+        display: grid;
         padding: 40px;
     }
 
@@ -1000,13 +1001,13 @@ footer {
         grid-template-columns: repeat(2, 1fr);
         align-items: center;
     }
-
+/*
     #intro {
         
         padding: 20px;
     }
 
-    
+   */ 
   
     
 
@@ -1216,7 +1217,7 @@ footer {
 
     #intro {
         display: grid;
-        
+        grid-template-columns: repeat(2, 1fr);
     }
 
 
