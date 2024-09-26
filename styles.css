@@ -1253,8 +1253,8 @@ footer {
 
     #testimonials q{
         text-align: center;
-        display: inline-block; /* or use 'block' if you want it on a new line */
-        width: 100px; /* set your desired width */
+        
+        width: 50%; 
     }
 
 
