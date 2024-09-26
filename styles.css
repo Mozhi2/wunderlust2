@@ -709,9 +709,7 @@ footer {
     }
 
 
-    #plan div section a img{
-        align-items: center;
-    }
+
 
 
     #plan h3 {
@@ -742,7 +740,12 @@ footer {
 
    
     
-    
+    #about{
+        background-color: var(--blue);
+        display: grid;
+        align-items: center;
+        padding: 20px;
+    }
 
 /*
 
@@ -790,7 +793,9 @@ footer {
     #testimonials section{
         padding: 20px;
     }
-
+    #testimonials div q{
+        padding: 20px;
+    }
   
 
     form,
