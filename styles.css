@@ -759,6 +759,10 @@ footer {
            
     }
 
+    #about img{
+        align-items: center;
+    }
+
     #about h3 {
         text-align: center;
     }
