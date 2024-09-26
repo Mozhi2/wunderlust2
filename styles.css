@@ -1201,8 +1201,9 @@ footer {
 
     #intro {
         display: grid;
-        grid-template-columns: repeat(1fr, 1fr);
-        padding: 20px;
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: auto auto;
+       gap: 10px;
     }
 
     #intro h2{
