@@ -742,7 +742,7 @@ footer {
 
    
     
-    }
+    
 
 
 
@@ -868,6 +868,7 @@ footer {
         background-color: var(--light-gray);
         padding: 20px;
     }
+}
 
     /*
     footer {
