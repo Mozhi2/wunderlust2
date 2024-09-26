@@ -738,7 +738,10 @@ footer {
        
     }
 
-   
+    #about{
+        background-color: var(--blue);
+        text-align: center;
+    }
     
     #about div{
         background-color: var(--blue);
