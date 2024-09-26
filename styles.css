@@ -645,8 +645,21 @@ footer {
     }
 
     #intro{
-        display: grid;
-        padding: 40px;
+        padding: 20px;
+    }
+
+
+
+    #intro h2 {
+        font-size: 1.5em;
+        margin-left: 20px;
+        text-align: left;
+    }
+
+    #intro p {
+
+        text-align: left;
+        font-size: 1em;
     }
 
     h3 {
@@ -741,6 +754,7 @@ footer {
         */
 
     #plan img {
+       
         background-color: var(--teal);
         padding: 50px;
         border-width: 4px;
@@ -1001,13 +1015,13 @@ footer {
         grid-template-columns: repeat(2, 1fr);
         align-items: center;
     }
-/*
+
     #intro {
-        
+        display: grid;
         padding: 20px;
     }
 
-   */ 
+    
   
     
 
@@ -1217,7 +1231,7 @@ footer {
 
     #intro {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
     }
 
 
