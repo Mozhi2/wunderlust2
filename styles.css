@@ -631,12 +631,20 @@ footer {
 
     
 nav {
-    background: #333; /* Background color */
-    color: white; /* Text color */
+   
+    color: var(--black); /* Text color */
 }
 
 #menu-toggle {
     position: relative;
+}
+
+#menu-toggle label{
+    position: relative;
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-color: var(--yellow);
 }
 
 #toggle {
