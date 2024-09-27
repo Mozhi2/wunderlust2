@@ -965,29 +965,8 @@ footer {
     #manu-toggle {
         display: flex;
     }
+    
 
-
-    nav {
-        text-align: center; /* Center the content */
-    }
-    
-    ul {
-        list-style: none; /* Remove bullet points */
-        padding: 0; /* Remove default padding */
-        margin: 0; /* Remove default margin */
-        display: inline-block; /* Allow centering */
-    }
-    
-    ul li {
-        display: inline; /* Display list items in a row */
-        margin: 0 15px; /* Space between items */
-    }
-    
-    ul a {
-        text-decoration: none; /* Remove underline */
-        color: #333; /* Text color */
-    }
-/*
     nav ul {
         display: flex;
         justify-content: center;
@@ -1018,7 +997,7 @@ footer {
         display: flex;
         justify-content: space-between;
     }
-*/
+
     
 
     #img-grid {
@@ -1296,6 +1275,7 @@ footer {
 
     #testimonials q{
         text-align: center;
+        flex-wrap: wrap;
        }
 
    
