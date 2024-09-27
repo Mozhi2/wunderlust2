@@ -770,11 +770,7 @@ footer {
         overflow: hidden;
     }
 
-    #plan img:nth-of-type(1),
-    #plan img:nth-of-type(2){
-        width: 100%;
-        height: 200%;
-    }
+  
 
     #about{
         background-color: var(--blue);
@@ -950,6 +946,10 @@ footer {
 
 @media screen and (min-width: 768px) {
 
+    header{
+        display: grid;
+    }
+
    
 
     #menu-toggle label {
@@ -960,10 +960,32 @@ footer {
         display: flex;
     }
 
+
+    nav {
+        text-align: center; /* Center the content */
+    }
+    
+    ul {
+        list-style: none; /* Remove bullet points */
+        padding: 0; /* Remove default padding */
+        margin: 0; /* Remove default margin */
+        display: inline-block; /* Allow centering */
+    }
+    
+    ul li {
+        display: inline; /* Display list items in a row */
+        margin: 0 15px; /* Space between items */
+    }
+    
+    ul a {
+        text-decoration: none; /* Remove underline */
+        color: #333; /* Text color */
+    }
+/*
     nav ul {
         display: flex;
-        justify-content: space-between;
-        /* Adjusts space evenly */
+        justify-content: center;
+       
         padding: 0;
     }
 
@@ -983,14 +1005,14 @@ footer {
 
     nav ul li {
         margin: 0 10px;
-        /* Add horizontal margin */
+       
     }
 
     nav a {
         display: flex;
         justify-content: space-between;
     }
-
+*/
     
 
     #img-grid {
