@@ -630,6 +630,8 @@ nav {
     background-color: var(--yellow);
     width: 100%;
     color: var(--black); 
+    top: 20;
+    right: 10;
 }
 
 #menu-toggle {
