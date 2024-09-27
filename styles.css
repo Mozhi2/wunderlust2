@@ -950,7 +950,13 @@ footer {
         display: grid;
     }
 
-   
+   h1{
+    text-align: left;
+   }
+
+   header p{
+    text-align: center;
+   }
 
     #menu-toggle label {
         display: none;
@@ -1171,9 +1177,8 @@ footer {
 @media screen and (min-width: 1200px) {
 
     header {
-        display: flex;
-       flex-wrap: wrap;
-       padding: 20px;
+        display: grid;
+        padding: 20px;
 
     }
 
