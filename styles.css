@@ -1293,9 +1293,7 @@ ul li.active a {
         gap: 10px;
         /* Optional spacing between images */
        
-        padding: 40px;
-
-    }
+        }
 
     #img-grid img {
         width: 100%;
