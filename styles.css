@@ -632,7 +632,7 @@ footer {
     
 nav {
    
-    color: var(--black); /* Text color */
+    color: var(--black); 
 }
 
 #menu-toggle {
@@ -647,15 +647,15 @@ nav {
     background-color: var(--yellow);
 }
 
-#toggle {
-    font-size: 24px; /* Adjust size as needed */
+.hambergur {
+    font-size: 24px; /
     cursor: pointer;
     display: inline-block;
     padding: 10px;
 }
 
 input[type="checkbox"] {
-    display: none; /* Hide the checkbox */
+    display: none; 
 }
 
 ul {
