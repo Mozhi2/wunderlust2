@@ -629,7 +629,9 @@ footer {
         margin-left: 20px;
     }
 
-    
+    nav{
+        top: 20px;
+    }
 
     nav ul {
         display: block;
@@ -1166,12 +1168,12 @@ footer {
       
     }
 
-     h1 {
+    h1 {
         text-align: left;
     }
 
     nav{
-        display: flex;
+        display: right;
     }
     nav ul {
         display: flex;
