@@ -627,16 +627,17 @@ footer {
     }
 
 
-    nav {
+    nav a{
         display: flex;
         justify-content: space-between;
+        
         margin-top: -20px;
         color: var(--black);
         text-decoration: none;
         text-align: center;
-        padding: 0.5rem;
+        padding: 20px;
         margin: 0.75rem 0;
-        background-color: var(--yellow);
+       background-color: var(--yellow);
         color: var(--black);
         font-size: 1rem;
         font-weight: bold;
@@ -645,6 +646,7 @@ footer {
 
     nav label {
         cursor: pointer;
+        text-align: center;
     }
 
     #menu-toggle {
