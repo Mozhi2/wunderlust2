@@ -831,6 +831,7 @@ footer {
         border-image: initial;
         border-radius: 8px;
         overflow: hidden;
+        object-fit: contain;
     }
 
 
