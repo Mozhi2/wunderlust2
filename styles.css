@@ -845,9 +845,7 @@ footer {
     #testimonials div{
         padding: 20px;
     }
-    #testimonials section{
-        padding: 20px;
-    }
+ 
     #testimonials q{
         width: 50%;
     }
@@ -1159,7 +1157,7 @@ footer {
 
     header {
         display: grid;
-        padding: 20px;
+        padding: 1.5rem 0;
 
     }
 
