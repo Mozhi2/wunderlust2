@@ -649,6 +649,7 @@ footer {
         font-size: 1rem;
         font-weight: bold;
         border-radius: 0.25rem;
+        background-color: var(--yellow);
 
     }
 
@@ -1004,6 +1005,7 @@ footer {
         color: var(--white);
         font-size: 20px;
         align-items: center;
+        text-align: center;
     }
 
     footer {
@@ -1442,6 +1444,7 @@ grid-template-rows: auto;
     #mySubmit {
         align-items: center;
         width: 50%;
+        text-align: center;
 
     }
 
