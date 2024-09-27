@@ -643,7 +643,7 @@ footer {
         margin-top: -20px;
         color: var(--black);
         text-decoration: none;
-        text-align: center;
+        align-items: center;
         padding: 0.5rem;
         margin: 0.5rem 0;
         font-size: 1rem;
@@ -652,6 +652,7 @@ footer {
         background-color: var(--yellow);
 
     }
+    
 
     #menu-toggle {
         position: relative;
@@ -938,6 +939,9 @@ footer {
         padding: 10px;
     }
 
+    .form-required{
+        font-weight: normal;
+    }
 
     form,
     #mySubmit {
@@ -1266,31 +1270,33 @@ footer {
         text-align: center;
     }
 
+    
+    nav li {
+        display: flex;
+    }
+
+
     nav ul {
         display: flex;
         justify-content: space-between;
+        list-style-type: none;
         /* Adjusts space evenly */
         padding: 0;
     }
 
 
 
-    nav li {
-        display: flex;
-    }
-
-    nav ul li {
-        display: flex;
-
-
-    }
-
 
 
     nav ul li {
+        display: flex;
+        height: 50px; /* Set your desired height */
+        line-height: 5px; /* Center text vertically */
+        padding: 0 10px; /* Adjust horizontal padding as needed */
+        display: inline-block; /* Keep items in a row */
         margin: 0 10px;
-        /* Add horizontal margin */
     }
+
 
     nav a {
         display: flex;
@@ -1385,6 +1391,9 @@ footer {
         justify-content: space-evenly;
     }
 
+    .form-required{
+        font-weight: normal;
+    }
 
 
     #contact {
