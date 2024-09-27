@@ -627,7 +627,7 @@ footer {
 
     
 nav {
-    background-color: var(--yellow);
+   margin-top: -20px;
     color: var(--black); 
 }
 
@@ -635,21 +635,18 @@ nav {
     position: relative;
 }
 
-#menu-toggle label{
-    position: relative;
-    display: block;
-    width: 50px;
-    height: 30px;
-    padding: 20px;
-    background-color: var(--yellow);
-    cursor: pointer;
-}
 
 .hambergur {
-    font-size: 24px; 
+    font-size: 30px; 
+    position: relative;
+    display: block;
+    font-weight: bold;
+    font: "Molle";
     cursor: pointer;
     display: inline-block;
-    padding: 10px;
+    padding: 20px;
+    background-color: var(--yellow);
+    text-align: center;
 }
 
 input[type="checkbox"] {
