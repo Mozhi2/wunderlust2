@@ -660,6 +660,9 @@ footer a{
     }
 
 
+    #menu-toggle label{
+        text-align: center;
+    }
     .hambergur {
         font-size: 30px;
         position: relative;
@@ -1263,7 +1266,7 @@ footer a{
     }
 
     h1 {
-        align-items: left;
+        text-align: left;
     }
 
     nav {
