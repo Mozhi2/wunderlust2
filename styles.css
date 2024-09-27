@@ -627,7 +627,8 @@ footer {
 
     
 nav {
-   
+    background-color: var(--yellow);
+    width: 100%;
     color: var(--black); 
 }
 
@@ -669,11 +670,13 @@ input[type="checkbox"]:checked ~ ul {
 
 ul li {
     padding: 10px;
+    
 }
 
 ul li a {
-    color: white; /* Link color */
+    color: var(--black);
     text-decoration: none;
+    width: 100%;
 }
 
 ul li.active a {
@@ -816,8 +819,8 @@ ul li.active a {
        
 
     #plan img {
-        width: 80%;
-        height: 100%;
+        width: 100%;
+        height: auto;
         background-color: var(--teal);
         padding: 20px;
         border-width: 4px;
