@@ -489,7 +489,7 @@ input[type="radio"]::before {
 input[type="radio"]:checked::before {
     transform: scale(1);
 }
-
+/*
 input[type="radio"]:focus {
     outline: max(2px, 0.15em) solid currentColor;
     outline-offset: max(2px, 0.15em);
@@ -497,6 +497,10 @@ input[type="radio"]:focus {
 
 .radio-input:focus-within {
     color: var(--form-control-color);
+}
+    */
+.radio-control{
+    margin-right: 10px;
 }
 
 
@@ -1378,7 +1382,7 @@ footer {
         justify-content: space-evenly;
     }
 
-/*
+
 
     #contact {
         display: grid;
@@ -1423,7 +1427,8 @@ footer {
         width: 100%;
     }
 
-*/
+
+/*
 #contact{grid-template-columns: repeat(3, 1fr);
 grid-template-rows: auto;
 }
@@ -1433,7 +1438,7 @@ grid-template-rows: auto;
     grid-template-rows: repeat(2, 1fr);
 }
 
-
+*/
     #mySubmit {
         align-items: center;
         width: 50%;
