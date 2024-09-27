@@ -610,8 +610,7 @@ footer {
     header {
         background-image: linear-gradient(var(--teal), var(--white));
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 1rem;
+        grid-template-columns: repeat(2, 1fr);
         padding: 20px;
     }
 
@@ -817,8 +816,8 @@ ul li.active a {
        
 
     #plan img {
-        width: 300%;
-        height: 200%;
+        width: 80%;
+        height: 100%;
         background-color: var(--teal);
         padding: 20px;
         border-width: 4px;
