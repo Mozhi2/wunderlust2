@@ -1239,7 +1239,8 @@ footer {
         /* Two rows */
         gap: 10px;
         /* Optional spacing between images */
-        justify-content: end;
+       
+        padding: 40px;
 
     }
 
