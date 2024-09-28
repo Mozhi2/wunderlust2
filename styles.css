@@ -227,21 +227,7 @@ header {
 }
     */
 
-    img, picture{
-        display: block;
-        max-width: 100%;
-    }
     
-    header img{
-        width: 100px;
-        padding: 0.5rem;
-    }
-    
-    #img-grid img{
-        margin: 1rem auto;
-        width: 100%;
-        max-width: 385px;
-    }
 
 #logo {
     padding: 0;
@@ -661,8 +647,8 @@ footer a{
         color: var(--black);
         text-decoration: none;
         align-items: center;
-        padding: 0.5rem;
-        margin: 0.5rem 0;
+        padding: 20px;
+        margin: 0.5rem10px 0;
         font-size: 1rem;
         font-weight: bold;
         border-radius: 0.25rem;
