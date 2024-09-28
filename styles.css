@@ -227,8 +227,6 @@ header {
 }
     */
 
-    
-
 #logo {
     padding: 0;
 }
@@ -647,8 +645,8 @@ footer a{
         color: var(--black);
         text-decoration: none;
         align-items: center;
-        padding: 20px;
-        margin: 10px 0;
+        padding: 0.5rem;
+        margin: 0.5rem 0;
         font-size: 1rem;
         font-weight: bold;
         border-radius: 0.25rem;
@@ -849,8 +847,8 @@ footer a{
 
 
     #plan img {
-        min-width: 50%;
-        max-width: 200px;
+        width: 100%;
+        height: 200px;
         background-color: var(--teal);
         padding: 20px;
         border-width: 4px;
